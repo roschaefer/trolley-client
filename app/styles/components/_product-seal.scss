@@ -1,6 +1,14 @@
 .c-product-seal {
-  display: flex;
+
+  margin-right: 20px;
 }
+
 .c-product-seal__image {
-  width: 20%;
+  height: 200px;
+  background-color: #00aaff;
+}
+.c-product-seal__text {
+  font-size: .75rem;
+  line-height: 130%;
+  background-color: #00d4b4;
 }

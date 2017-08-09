@@ -1,21 +1,9 @@
 .c-product-seals__list {
+  padding: 10px;
   display: flex;
   flex-direction: row;
   width: 100%;
 
   background-color: #0a4b3e;
 
-}
-.c-product-seal {
-
-  margin-right: 20px;
-}
-
-.c-product-seal__image {
-  height: 200px;
-  background-color: #00aaff;
-}
-.c-product-seal__text {
-
-  background-color: #00d4b4;
 }
