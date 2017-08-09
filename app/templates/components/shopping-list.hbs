@@ -1,18 +1,15 @@
 {{yield}}
-<h1> Shopping List</h1>
-<h3> Cart items </h3>
-<ul>
+<h1> Einkaufsliste</h1>
+<h3> Im Wagen </h3>
+<ul class="c-shopping-list">
   {{#each state.cartItems as |item|}}
   {{shopping-list/item item=item}}
   {{/each}}
 </ul>
 
-<h3> Remaining items </h3>
-<ul>
-  {{#each remainingItems as |item|}}
-<h1>Einkaufsliste</h1>
+<h3> Noch zu kaufen </h3>
 <ul class="c-shopping-list">
-  {{#each items as |item|}}
+  {{#each remainingItems as |item|}}
   {{shopping-list/item item=item}}
   {{/each}}
 </ul>
