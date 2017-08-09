@@ -7,7 +7,4 @@ export default Ember.Route.extend({
       this.get('sessionState').set('shoppingListItems', products);
     });
   },
-  model() {
-    return this.get('sessionState');
-  }
 });

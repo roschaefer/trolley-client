@@ -10,6 +10,7 @@ export default Ember.Service.extend({
   },
   addToCart(item){
     this.get('cartItems').pushObject(item);
+    this.notifyPropertyChange('cartItems');
   },
 
   updatePriority(priority, state){
