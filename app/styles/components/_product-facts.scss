@@ -1,0 +1,14 @@
+/**
+ * PRODUCT-FACTS
+ */
+
+.c-product-facts {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+
+.c-product-facts__item {
+    width: 50%;
+    padding: .5rem;
+}
