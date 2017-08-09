@@ -22,8 +22,11 @@ export default function() {
     this.del('/posts/:id');
 
     http://www.ember-cli-mirage.com/docs/v0.3.x/shorthands/
-  */
-  this.get('/products', (schema, request) => {
-  return schema.products.all();
-});
+    */
+  this.get('/products', (schema/*, request*/) => {
+    return schema.products.all();
+  });
+  this.get('/products/:id', ({products}, request) => {
+    return products.find(request.params.id);
+  });
 }
