@@ -1,11 +1,3 @@
-<h3>Im Wagen</h3>
-<ul class="c-shopping-list">
-  {{#each state.cartItems as |item|}}
-    {{shopping-list/item item=item}}
-  {{/each}}
-</ul>
-
-<h3> Noch zu kaufen </h3>
 <ul class="c-shopping-list">
   {{#each remainingItems as |item|}}
     {{shopping-list/item item=item}}
