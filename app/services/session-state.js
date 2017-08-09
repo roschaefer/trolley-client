@@ -14,11 +14,13 @@ export default Ember.Service.extend({
 
   updatePriority(priority, state){
     if (!(this.get('prioritySet').includes(priority))) { return }
+    let updatePriorities = this.get('priorities');
     if (state) {
-      this.get('priorities').pushObject(priority);
+      updatePriorities.pushObject(priority);
     } else {
-      this.get('priorities').removeObject(priority);
+      updatePriorities.removeObject(priority);
     }
+    this.set('priorities', updatePriorities.uniq());
   },
   nextPriority(priority){
     let nextPriority;

@@ -88,6 +88,16 @@ describe('Unit | Service | session state', function() {
           expect(service.get('priorities')).to.be.empty
         });
       });
+
+      context('same priority again', function() {
+        it('appends nothing', function() {
+          service = this.subject();
+          service.set('priorities', ['regional']);
+          expect(service.get('priorities.length')).to.eq(1);
+          service.updatePriority('regional', true);
+          expect(service.get('priorities.length')).to.eq(1);
+        });
+      });
     });
 
     context('priority deactivated', function() {
