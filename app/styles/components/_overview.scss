@@ -4,13 +4,26 @@
 
 .c-overview {
     display: flex;
+    height: 100%;
     align-items: start;
 }
 
 .c-overview__shopping-list {
     flex: 1;
+    height: 100%;
+
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
 }
 
 .c-overview__shopping-summary {
     width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+.c-overview__header {
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    line-height: 3rem;
 }
