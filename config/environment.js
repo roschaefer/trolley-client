@@ -3,7 +3,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'story-trolley',
+    modulePrefix: 'trolley-client',
     environment,
     rootURL: '/',
     locationType: 'auto',
