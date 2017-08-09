@@ -1,0 +1,16 @@
+/**
+ * OVERVIEW
+ */
+
+.c-overview {
+    display: flex;
+    align-items: start;
+}
+
+.c-overview__shopping-list {
+    flex: 1;
+}
+
+.c-overview__shopping-summary {
+    width: 33%;
+}
