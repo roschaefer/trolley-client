@@ -1,0 +1,26 @@
+.c-product-graphic {
+  width: 100%;
+}
+.c-product-seals {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.c-product-seal {
+  display: flex;
+}
+.c-product-seal__image {
+  width: 20%;
+}
+.c-product-map {
+  width: 100%
+}
+.c-product-slide__textBox {
+  background-color: rgba(0,100,0,.5);
+}
+.c-product-slide__header {
+  font-size: 4rem;
+}
+.c-product-slide__text {
+  font-size: 2rem;
+}
