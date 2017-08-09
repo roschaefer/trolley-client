@@ -17,6 +17,38 @@ describe('Unit | Service | session state', function() {
   });
 
   describe('priorities', function() {
+    it('returns null by default', function() {
+      service = this.subject();
+      service.set('priorities', []);
+      expect(service.nextPriority('organic')).to.be.null;
+    });
+
+    context('when current priority is null', function() {
+      it('returns first priority', function() {
+        service = this.subject();
+        service.set('priorities', ['organic', 'regional']);
+        expect(service.nextPriority(null)).to.eq('organic');
+      });
+    });
+
+    context('when current priority is first priority', function() {
+      it('returns next priority', function() {
+        service = this.subject();
+        service.set('priorities', ['organic', 'regional']);
+        expect(service.nextPriority('organic')).to.eq('regional');
+      });
+    });
+
+    context('when current priority is last priority', function() {
+      it('returns next null again', function() {
+        service = this.subject();
+        service.set('priorities', ['organic', 'regional']);
+        expect(service.nextPriority('regional')).to.eq(null);
+      });
+    });
+  });
+
+  describe('priorities', function() {
     it('empty by default', function() {
       service = this.subject();
       expect(service.get('priorities')).to.be.empty;
