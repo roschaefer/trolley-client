@@ -10,5 +10,9 @@ export default Ember.Route.extend({
         this.get('sessionState').addToCart(product);
       });
     });
+    this.get('communication').setEventListener('prioritySwitch', (eventParams) => {
+      //this.transitionTo('products', eventParams.id);
+      this.get('sessionState').updatePriority(eventParams.priority, eventParams.state);
+    });
   }
 });

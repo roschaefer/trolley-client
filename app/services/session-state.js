@@ -21,16 +21,18 @@ export default Ember.Service.extend({
     }
   },
   nextPriority(priority){
+    let nextPriority;
     if (priority) {
       const lastIndex = this.get('priorities').lastIndexOf(priority);
-      const nextPriority = this.get('priorities').get(lastIndex + 1);
-      if (Ember.isNone(nextPriority)) {
-        return null;
-      } else {
-        return nextPriority;
-      }
+      nextPriority = this.get('priorities').get(lastIndex + 1);
     } else {
-      return this.get('priorities.firstObject');
+      nextPriority = this.get('priorities.firstObject');
+    }
+
+    if (Ember.isNone(nextPriority)) {
+      return null;
+    } else {
+      return nextPriority;
     }
   }
 });
