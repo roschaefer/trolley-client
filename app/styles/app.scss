@@ -1,2 +1,19 @@
+
+/**
+ * TROLLEY-CLIENT
+ */
+
+/* SHARED */
+@import "shared/page";
+
+/* OBJECTS */
+@import "objects/media";
+
+/* COMPONENTS */
+@import "components/viewport";
+@import "components/overview";
+@import "components/facts-item";
+@import "components/shopping-summary";
 @import "components/product-slide";
 @import "components/product-seals";
+

@@ -4,4 +4,7 @@ export default Factory.extend({
   name(i) {
     return `Product ${i}`;
   },
+  id(i) {
+    return i;
+  },
 });

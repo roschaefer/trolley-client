@@ -1,0 +1,16 @@
+/**
+ * SHOPPING-SUMMARY
+ */
+
+.c-shopping-summary {
+
+}
+
+.c-shopping-summary__item {
+    padding: .5rem;
+    border-top: 1px solid #ddd;
+
+    &:last-child {
+        border-bottom: 1px solid #ddd;
+    }
+}
