@@ -1,0 +1,19 @@
+/**
+ * FACTS-ITEM
+ */
+
+.c-facts-item {
+    text-align: center;
+}
+
+.c-facts-item__value {
+    font-size: 1.5rem;
+    margin: .25rem 0;
+}
+
+.c-facts-item__info {
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
