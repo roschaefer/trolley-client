@@ -1,9 +1,14 @@
+.c-product-slide {
+  background-color: #0a6ebd;
+  height: 380px;
+}
 .c-product-slide__textBox {
+  width: 25%;
   background-color: rgba(0,100,0,.5);
 }
 .c-product-slide__header {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .c-product-slide__text {
-  font-size: 2rem;
+  font-size: 1rem;
 }
