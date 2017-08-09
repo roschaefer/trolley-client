@@ -10,6 +10,9 @@
 <h3> Remaining items </h3>
 <ul>
   {{#each remainingItems as |item|}}
+<h1>Einkaufsliste</h1>
+<ul class="c-shopping-list">
+  {{#each items as |item|}}
   {{shopping-list/item item=item}}
   {{/each}}
 </ul>
