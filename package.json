@@ -8,12 +8,15 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roschaefer/trolley-client.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember test",
-    "deploy": "ember build --environment=production && scp -r dist/* pi@192.168.178.52:~/StoryTrolley"
+    "deploy": "ember build --environment=production && scp -r dist pi@192.168.178.52:~/StoryTrolley/client/"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
