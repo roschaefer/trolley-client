@@ -1,17 +1,25 @@
-<div class="c-overview">
-    <div class="c-overview__shopping-list u-is-highlight">
-        <h1 class="c-section-header">Einkaufsliste</h1>
-        {{shopping-list items=remainingItems}}
+{{#app-shell
+    info="Für mehr Infos Produkt auf ((★)) legen"
+}}
+
+    <div class="c-overview">
+
+        <div class="c-overview__shopping-list u-is-highlight">
+            <h1 class="c-section-header">Einkaufsliste</h1>
+            {{shopping-list items=remainingItems}}
+        </div>
+
+        <div class="c-overview__shopping-summary">
+            <h1 class="c-section-header">Dein Einkauf</h1>
+            {{shopping-summary
+                activePriorities=activePriorities
+                cartItems=cartItems
+                totalDistance=totalDistance
+                totalOrganic=totalOrganic
+                totalSugar=totalSugar
+                totalPrice=totalPrice
+            }}
+        </div>
     </div>
-    <div class="c-overview__shopping-summary">
-        <h1 class="c-section-header">Dein Einkauf</h1>
-        {{shopping-summary
-            activePriorities=activePriorities
-            cartItems=cartItems
-            totalDistance=totalDistance
-            totalOrganic=totalOrganic
-            totalSugar=totalSugar
-            totalPrice=totalPrice
-        }}
-    </div>
-</div>
+
+{{/app-shell}}
