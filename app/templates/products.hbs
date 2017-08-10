@@ -1,47 +1,54 @@
-<h1 class="c-section-header u-is-highlight">{{model.name}}</h1>
+{{#app-shell
+    actionLeft="Einkaufsliste"
+    actionRight="Mehr zu Regional"
+}}
 
-{{#if activePriorities.length}}
+    <h1 class="c-section-header u-is-highlight">{{model.name}}</h1>
 
-    <div class="c-product-facts">
+    {{#if activePriorities.length}}
 
-        {{#if (includes activePriorities "regional")}}
-            <div class="c-product-facts__item">
-                <div class="c-card">
-                    {{facts-item value=(decimals model.distance 0) unit="km" info="Transportweg"}}
+        <div class="c-product-facts">
+
+            {{#if (includes activePriorities "regional")}}
+                <div class="c-product-facts__item">
+                    <div class="c-card">
+                        {{facts-item value=(decimals model.distance 0) unit="km" info="Transportweg"}}
+                    </div>
                 </div>
-            </div>
-        {{/if}}
+            {{/if}}
 
-        {{#if (includes activePriorities "organic")}}
-            <div class="c-product-facts__item">
-                <div class="c-card">
-                    {{facts-item value="Bio" info="Entspricht Standard"}}
+            {{#if (includes activePriorities "organic")}}
+                <div class="c-product-facts__item">
+                    <div class="c-card">
+                        {{facts-item value="Bio" info="Entspricht Standard"}}
+                    </div>
                 </div>
-            </div>
-        {{/if}}
+            {{/if}}
 
-        {{#if (includes activePriorities "sugar")}}
-            <div class="c-product-facts__item">
-                <div class="c-card">
-                    {{facts-item value=(decimals model.sugar 1) unit="Gramm" info="Zucker"}}
+            {{#if (includes activePriorities "sugar")}}
+                <div class="c-product-facts__item">
+                    <div class="c-card">
+                        {{facts-item value=(decimals model.sugar 1) unit="Gramm" info="Zucker"}}
+                    </div>
                 </div>
-            </div>
-        {{/if}}
+            {{/if}}
 
-        {{#if (includes activePriorities "price")}}
-            <div class="c-product-facts__item">
-                <div class="c-card">
-                    {{facts-item value=(decimals model.price 2) unit="€" info="Preis"}}
+            {{#if (includes activePriorities "price")}}
+                <div class="c-product-facts__item">
+                    <div class="c-card">
+                        {{facts-item value=(decimals model.price 2) unit="€" info="Preis"}}
+                    </div>
                 </div>
-            </div>
-        {{/if}}
+            {{/if}}
 
-</div>
-
-{{else}}
-    
-    <div class="c-billboard">
-        Wähle aus, was dir beim Einkaufen wichtig ist, um mehr über dieses Produkt zu erfahren!
     </div>
 
-{{/if}}
+    {{else}}
+        
+        <div class="c-billboard">
+            Wähle aus, was dir beim Einkaufen wichtig ist, um mehr über dieses Produkt zu erfahren!
+        </div>
+
+    {{/if}}
+
+{{/app-shell}}
