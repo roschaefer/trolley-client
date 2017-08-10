@@ -4,33 +4,54 @@
 
     <h1 class="c-section-header u-is-highlight">{{model.name}}</h1>
 
+    {{#if activePriorities.length}}
 
-    <div class="c-product-facts">
+        <div class="c-product-facts">
 
-        <div class="c-product-facts__item">
-            <div class="c-card">
-                {{facts-item value=(decimals model.distance 0) unit="km" info="Transportweg"}}
-            </div>
+            {{#if (includes activePriorities "regional")}}
+                <div class="c-product-facts__item">
+                    <div class="c-card">
+                        {{facts-item value=(decimals model.distance 0) unit="km" info="Transportweg"}}
+                    </div>
+                </div>
+            {{/if}}
+
+            {{#if (includes activePriorities "organic")}}
+                <div class="c-product-facts__item">
+                    <div class="c-card">
+                        {{#if (includes model.seals "EUBio")}}
+                            {{facts-item value="Bio" info="Entspricht Standard"}}
+                        {{else}}
+                            {{facts-item value="Kein Bio" info="Entspricht nicht Standard"}}
+                        {{/if}}
+                    </div>
+                </div>
+            {{/if}}
+
+            {{#if (includes activePriorities "sugar")}}
+                <div class="c-product-facts__item">
+                    <div class="c-card">
+                        {{facts-item value=(decimals model.sugar 1) unit="Gramm" info="Zucker"}}
+                    </div>
+                </div>
+            {{/if}}
+
+            {{#if (includes activePriorities "price")}}
+                <div class="c-product-facts__item">
+                    <div class="c-card">
+                        {{facts-item value=(decimals model.price 2) unit="€" info="Preis"}}
+                    </div>
+                </div>
+            {{/if}}
+
         </div>
 
-        <div class="c-product-facts__item">
-            <div class="c-card">
-                {{facts-item value="Bio" info="Entspricht Standard"}}
-            </div>
+    {{else}}
+
+        <div class="c-billboard">
+            Wähle aus, was dir beim Einkaufen wichtig ist, um mehr Informationen zu diesem Produkt anzuzeigen!
         </div>
 
-        <div class="c-product-facts__item">
-            <div class="c-card">
-                {{facts-item value=(decimals model.sugar 1) unit="Gramm" info="Zucker"}}
-            </div>
-        </div>
-
-        <div class="c-product-facts__item">
-            <div class="c-card">
-                {{facts-item value=(decimals model.price 2) unit="€" info="Preis"}}
-            </div>
-        </div>
-
-    </div>
+    {{/if}}
 
 {{/app-shell}}

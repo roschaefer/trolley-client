@@ -1,19 +1,19 @@
 export let data = [ {
     "id": 4,
-    "brand": "Westhof Biogemüse",
-    "name": "Brokkoli",
-    "group": "Brokkoli",
-    "distance": 171,
-    "price": 0,
-    "sugar": 1.7,
-    "seals": [
-        "Bioland",
-        "EUBio"
-    ],
     "rfids": [
         "5400C91257D8",
         "5400C8E21D63",
         "5400C938F85D"
+    ],
+    "brand": "Westhof Biogemüse",
+    "name": "Brokkoli",
+    "group": "Brokkoli",
+    "distance": 171,
+    "price": 5,
+    "sugar": 1.7,
+    "seals": [
+        "Bioland",
+        "EUBio"
     ],
     "details": {
         "regional": {

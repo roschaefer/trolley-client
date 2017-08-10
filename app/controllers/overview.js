@@ -31,7 +31,9 @@ export default Ember.Controller.extend({
   }),
 
   totalOrganic: Ember.computed('sessionState.cartItems', function() {
-    return 0;
+    return this.get('sessionState.cartItems').reduce((organic, item) => {
+      return organic + (item.seals.includes('EUBio') ? 1 : 0);
+    }, 0);
   }),
 
   totalSugar: Ember.computed('sessionState.cartItems', function() {

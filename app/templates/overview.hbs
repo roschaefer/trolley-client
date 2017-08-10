@@ -2,13 +2,20 @@
     info="Für mehr Infos Produkt auf ((★)) legen"
 }}
 
-    {{log "Products"}}
-
     <div class="c-overview">
 
         <div class="c-overview__shopping-list u-is-highlight">
             <h1 class="c-section-header">Einkaufsliste</h1>
-            {{shopping-list items=remainingItems}}
+           {{#if remainingItems.length}}
+                {{shopping-list items=remainingItems}}
+
+            {{else}}
+                
+                <div class="c-billboard">
+                    Super, du hast deinen Einkauf erledigt!
+                </div>
+
+            {{/if}}
         </div>
 
         <div class="c-overview__shopping-summary">

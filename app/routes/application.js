@@ -14,7 +14,6 @@ export default Ember.Route.extend({
     });
     this.get('communication').setEventListener('prioritySwitch', (eventParams) => {
 
-      //this.transitionTo('products', product.id);
       this.get('sessionState').updatePriority(eventParams.priority, eventParams.state);
 
     });
