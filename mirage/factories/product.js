@@ -7,4 +7,13 @@ export default Factory.extend({
   id(i) {
     return i;
   },
+  distance() {
+    return 0;
+  },
+  sugar() {
+    return 0;
+  },
+  price() {
+    return 0;
+  }
 });
