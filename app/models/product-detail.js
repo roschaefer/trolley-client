@@ -1,5 +1,10 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  products: DS.hasMany('product'),
+  product: DS.belongsTo('product'),
+  priority: DS.attr('string'),
+  type: DS.attr('string'),
+  filename: DS.attr('string'),
+  headline: DS.attr('string'),
+  text: DS.attr('string'),
 });

@@ -32,4 +32,7 @@ export default function() {
   this.get('/product-rfids/:tag', ({productRfids}, request) => {
     return productRfids.find(request.params.tag);
   });
+  this.get('/product-details/:id', ({productDetails}, request) => {
+    return productDetails.find(request.params.id);
+  });
 }
