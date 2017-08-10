@@ -15,21 +15,21 @@ export let data = [
         "details": {
             "regional": {
                 "priority": "regional",
-                "type": "slide",
+                "type": "video",
                 "headline": "Nicht gerade nebenan...",
                 "text": "Der Brokkoli kommt aus Parchim, dem Gemüsegarten Mecklenburg-Vorpommerns. Und ist ganz schön weit nach Niedersachsen gereist.",
                 "filename": "brokkoli_regional.mp4"
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Da drin?",
                 "text": "Das Brokkoli überhaupt Zucker enthält, ist schon überraschend. Aber mit 1,7 Gramm pro 100 Gramm Brokkoli kann man wohl selbst in der strengsten Diät leben.",
                 "filename": "brokkoli_zucker.mp4"
             },
             "price": {
                 "priority": "price",
-                "type": "slide",
+                "type": "video",
                 "headline": "Röschen, was ein Preis",
                 "text": "20 Cent pro 100g Brokkoli – der Brokkoli hat eben gerade Saison. Das spart Dir Geld!",
                 "filename": "brokkoli_zucker.mp4"
@@ -56,21 +56,21 @@ export let data = [
         "details": {
             "regional": {
                 "priority": "regional",
-                "type": "slide",
+                "type": "video",
                 "headline": "Nicht gerade nebenan...",
                 "text": "Der Bio-Brokkoli kommt aus Friedrichsgabekoog und hat damit auf dem Weg nach Lüneburg noch mehr Kilometer als der konventionelle Brokkoli hinter sich gelassen.",
                 "filename": "brokkoli_regional.mp4"
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Da drin?",
                 "text": "Da macht auch Bio keinen Unterschied - dieser Brokkoli enthält genauso wie der konventionelle Brokkoli 1,7 Gramm Zucker pro 100 Gramm.",
                 "filename": "bio_brokkoli_zucker.mp4"
             },
             "price": {
                 "priority": "price",
-                "type": "slide",
+                "type": "video",
                 "headline": "Bio-Billig-Röschen",
                 "text": "Der Bio-Brokkoli ist etwa ein Drittel teurer als der konventionelle Brokkoli da hinten. Welcher schafft es in Deinen EInkaufswagen?",
                 "filename": "brokkoli_bio.mp4"
@@ -172,21 +172,21 @@ export let data = [
         "details": {
             "regional": {
                 "priority": "regional",
-                "type": "slide",
+                "type": "video",
                 "headline": "Weit gereist...",
                 "text": "Bio, aber in der direkten Umgebung wohnen die Hühner trotzdem nicht. Stolze 112 km brauchen die Eier vom Bauckhof bis in den Markt.",
                 "filename": "Eier_Bauckhof_regional.mp4"
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Ein Ei ist ein Ei ist ein Ein...",
                 "text": "Ei ist Ei - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 1,1 Gramm pro 100 Gramm Ei.",
                 "filename": "Eier_Bauckhof_regional.mp4"
             },
             "price": {
                 "priority": "price",
-                "type": "slide",
+                "type": "video",
                 "headline": "Goldei",
                 "text": "Wenns dennauch doppelt so gut schmeckt wie das Ei zwei Schritte weiter, das fast die Hälfte kostet, nämlich 22 Cent statt 45 Cent.",
                 "filename": "Eier_Bauckhof_bio.mp4"
@@ -253,21 +253,21 @@ export let data = [
         "details": {
             "regional": {
                 "priority": "regional",
-                "type": "slide",
+                "type": "video",
                 "headline": "Regional – für Norweger",
                 "text": "Das Bio-Lachsfilet von followfish stammt auch nicht unbedingt aus der direkten Umgebung. Aber es kommt aus einer Zucht. Und hat so auf dem Weg von Norwegen bis in den Lüneburger Markt immerhin \"nur\" 1437km hinter sich gelassen - ein Fünftel der Strecke, die das Lachsfilet von gut & günstig braucht.",
                 "filename": "lachs_bio_Regional.mp4"
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Zucker? Welcher Zucker?",
                 "text": "Zero Zucker - Jackpot!",
                 "filename": "lachs_followfish_regional.jpg"
             },
             "price": {
                 "priority": "price",
-                "type": "slide",
+                "type": "video",
                 "headline": "Bio kostet!",
                 "text": "Qualität hat ihren Preis, das gute Bio-Lachsfilet von followfish gibt es nicht für lau. Daher landet der Fisch mit 4,00€ pro 100 Gramm auf dem letzten Platz.",
                 "filename": "lachs_bio_regional.mp4"
@@ -297,14 +297,14 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Fast, aber eben nur fast...",
                 "text": "Fast zuckerfrei, aber an den 0,1 Gramm Zucker pro 100 Gramm Gouda kommt man halt nicht ganz vorbei.",
                 "filename": "gouda_gug_zucker.mp4"
             },
             "price": {
                 "priority": "price",
-                "type": "slide",
+                "type": "video",
                 "headline": "Billiger geht's nicht...",
                 "text": "Da steckt das günstig schon im Namen: Weniger als 50 Cent pro 100 Gramm gut & günstig Käse geht einfach nicht.",
                 "filename": "gouda_gug_zucker.mp4"
@@ -334,7 +334,7 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Fast, aber eben nur fast...",
                 "text": "Fast zuckerfrei, aber an den 0,1 Gramm Zucker pro 100 Gramm Gouda kommt man halt nicht ganz vorbei.",
                 "filename": "kaese_ruecker_zucker.mp4"
@@ -735,7 +735,7 @@ export let data = [
             },
             "price": {
                 "priority": "price",
-                "type": "slide",
+                "type": "video",
                 "headline": "Kraft für 49 Cent",
                 "text": "Spinat soll kräftig machen – ob das stimmt ist umstritten. Immerhin schont er den Geldbeutel, das steht bei einem Preis von 49 Cent fest.",
                 "filename": "spinat_zucker.mp4"
@@ -765,7 +765,7 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Ein Spinat wie der andere...",
                 "text": "1,7 Gramm Zucker pro 100 Gramm Spinat, da Unterscheiden sich die Produkte von Iglo und Gut & Günstig nicht.",
                 "filename": "spinat_zucker.mp4"
@@ -834,7 +834,7 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Eiweiß en masse ",
                 "text": "Nur 0,3 Gramm Zucker, sogar 26 Gramm Eiweiß pro 100 Gramm Schinken - ein richtiges Energiepaket.",
                 "filename": "schinken_gug_zucker.mp4"
@@ -870,7 +870,7 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Eiweiß en masse ",
                 "text": "Nur 0,3 Gramm Zucker, sogar 26 Gramm Eiweiß pro 100 Gramm Schinken - ein richtiges Energiepaket.",
                 "filename": "schinken_gug_zucker.mp4"
@@ -895,7 +895,7 @@ export let data = [
         "details": {
             "regional": {
                 "priority": "regional",
-                "type": "slide",
+                "type": "video",
                 "headline": "Stolzer zweiter Platz",
                 "text": "Gut & günstig - und fast von nebenan. Mit 87km braucht die frische Vollmilch nur wenige Minuten länger für den Weg in den Markt, als die Milch von Alnatura",
                 "filename": "milch_gug_regional.mp4"
@@ -982,7 +982,7 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Kaum Zucker",
                 "text": "Milch ist Milch - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 4,8 Gramm pro 100 Mililiter Milch.",
                 "filename": "kaffee_zucker.mp4"
@@ -1022,7 +1022,7 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Kaum Zucker",
                 "text": "Milch ist Milch - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 4,8 Gramm pro 100 Mililiter Milch.",
                 "filename": "kaffee_zucker.mp4"
@@ -1058,7 +1058,7 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Geteilte Freude...",
                 "text": "Was hat Frischkäse aus Dänemark und Frischkäse aus Bayern gemeinsam? Nicht viel, außer einen Zuckergehalt von 3 Gramm pro 100 Gramm Frischkäse.",
                 "filename": "kaffee_zucker.mp4"
@@ -1091,14 +1091,14 @@ export let data = [
         "details": {
             "regional": {
                 "priority": "regional",
-                "type": "slide",
+                "type": "video",
                 "headline": "Mia san Frischkäse",
                 "text": "Dieser Frischkäse stammt aus Regensburg. Zwar bio, aber regional ist anders.",
                 "filename": "frischkaese_bio_regional.mp4"
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Geteilte Freude...",
                 "text": "Was hat Frischkäse aus Dänemark und Frischkäse aus Bayern gemeinsam? Nicht viel, außer einen Zuckergehalt von 3 Gramm pro 100 Gramm Frischkäse.",
                 "filename": "gouda_gug_zucker.mp4"
@@ -1130,14 +1130,14 @@ export let data = [
         "details": {
             "regional": {
                 "priority": "regional",
-                "type": "slide",
+                "type": "video",
                 "headline": "Frischkäse aus Österreich",
                 "text": "Schlusslicht in der Kategorie Regionalität: Stolze 860km legt der Alnatura Frischkäse auf dem Weg von Österreich in den Lüneburger Markt zurück.",
                 "filename": "frischkaese_alnatura_regional.mp4"
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Naschkühe",
                 "text": "Mit 4,1 Gramm Zucker pro 100 Gramm Frischkäse hat das Produkt von Alnatura einen höheren Zuckergehalt, als die Konkurrenz von Edeka. Vielleicht naschen die Kühen in den Alpen einfach mehr?",
                 "filename": "kaese_ruecker_zucker.mp4"
@@ -1245,7 +1245,7 @@ export let data = [
             },
             "price": {
                 "priority": "price",
-                "type": "slide",
+                "type": "video",
                 "headline": "Latinum obendrauf",
                 "text": "\"Meles Meles Cerevisisia Est\" prangt auf dem Etikett: Da ist, das Dachs-Bier! So viel klassische Bildung bekommt man für den Preis noch dazu. Denn \"Meles Meles\", das ist der lateinische Name für Dachs.",
                 "filename": "bier_dachs_preis.mp4"
@@ -1277,7 +1277,7 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Passt auf",
                 "text": "Zucker ist Marco Maas in seiner Ernährung besonders wichtig. Deshalb achtet er beim Einkaufen besonders darauf.",
                 "filename": "prod37-zucker.mp4"

@@ -31,7 +31,6 @@ export default Ember.Controller.extend({
   }),
 
   totalOrganic: Ember.computed('sessionState.cartItems', function() {
-    console.log('Overview');
     return this.get('sessionState.cartItems').reduce((organic, item) => {
       if(typeof item.seals !== 'undefined' && item.seals.includes('EUBio')) {
         return organic + 1;
