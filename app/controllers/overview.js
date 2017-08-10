@@ -36,7 +36,6 @@ export default Ember.Controller.extend({
 
   totalPrice: Ember.computed('sessionState.cartItems', function() {
     return this.get('sessionState.cartItems').reduce((price, item) => {
-      console.log(item);
       return (price + item.get('price')).toFixed(2);
     }, 0);
   }),

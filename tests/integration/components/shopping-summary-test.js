@@ -17,8 +17,8 @@ describe('Integration | Component | shopping summary', function() {
     //     template content
     //   {{/shopping-summary}}
     // `);
-
-    this.render(hbs`{{shopping-summary}}`);
+    this.set('activePriorities', []);
+    this.render(hbs`{{shopping-summary activePriorities=activePriorities}}`);
     expect(this.$()).to.have.length(1);
   });
 });
