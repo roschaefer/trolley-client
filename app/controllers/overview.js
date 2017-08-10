@@ -26,25 +26,25 @@ export default Ember.Controller.extend({
 
   totalDistance: Ember.computed('sessionState.cartItems', function() {
     return this.get('sessionState.cartItems').reduce((distance, item) => {
-      return (distance + item.distance).toFixed(0);
+      return distance + item.distance;
     }, 0);
   }),
 
   totalOrganic: Ember.computed('sessionState.cartItems', function() {
     return this.get('sessionState.cartItems').reduce((organic, item) => {
-      return organic + (item.seals.includes('EUBio') ? 1 : 0);
+      return item.seals.includes('EUBio') ? 1 : 0;
     }, 0);
   }),
 
   totalSugar: Ember.computed('sessionState.cartItems', function() {
     return this.get('sessionState.cartItems').reduce((sugar, item) => {
-      return (sugar + item.sugar).toFixed(1);
+      return sugar + item.sugar;
     }, 0);
   }),
 
   totalPrice: Ember.computed('sessionState.cartItems', function() {
     return this.get('sessionState.cartItems').reduce((price, item) => {
-      return (price + item.price).toFixed(2);
+      return price + item.price;
     }, 0);
   }),
 
