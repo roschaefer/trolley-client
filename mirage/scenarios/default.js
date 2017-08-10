@@ -7,6 +7,7 @@ export default function(server) {
 
   // server.createList('post', 10);
   //server.createList('product', 10);
-    server.loadFixtures('products');
+  server.loadFixtures('products');
+  server.loadFixtures('product-rfids');
 
 }

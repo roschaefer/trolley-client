@@ -567,24 +567,7 @@ export default [{
         rfids: ['5400CCD2D19B', '5400CB91BAB4'],
         distance: 23,
         price: 0,
-        sugar: 0.1,
-        regional: {
-            type: 'slide',
-            headline: 'Komm näher!',
-            text: 'Legte man 100000 Flaschen „Gestopfter Dachs“-Bier längs aneinander, dann stünde man schon vor der Brauerei in Dahlenburg. Keine halbe Stunde Fahrt, zwischen Lüneburg und Wendland, wird dieses ungewöhnliche Bier gebraut: Mit dem wiederentdeckten alten Verfahren des „Hopfenstopfens“ gibt Brauer Marc Brammer dem Bier einen besonders blumigen Geschmack.',
-            image: 'bier_dachs_regional.jpg'
-        },
-        seals: ['-']
-    },
-    {
-        id: 37,
-        brand: '',
-        name: '',
-        group: '',
-        rfids: ['5400C984A9B0', '5400C9382A8F'],
-        distance: 0,
-        price: 0,
-        sugar: 0,
-        regional: {type: 'slide', headline: '', text: '', image: ''},
-        seals: ['']
-    }];
+        sugar: 0.1
+    }
+];
+

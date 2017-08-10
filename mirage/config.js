@@ -29,4 +29,7 @@ export default function() {
   this.get('/products/:id', ({products}, request) => {
     return products.find(request.params.id);
   });
+  this.get('/product-rfids/:tag', ({productRfids}, request) => {
+    return productRfids.find(request.params.tag);
+  });
 }
