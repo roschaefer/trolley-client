@@ -304,13 +304,4 @@ export default [
         distance: 23,
         price: 0,
         sugar: 0.1
-    },
-    {
-        id: 37,
-        brand: '',
-        name: '',
-        group: '',
-        distance: 0,
-        price: 0,
-        sugar: 0
     }];
