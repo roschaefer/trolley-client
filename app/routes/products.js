@@ -20,6 +20,6 @@ export default Ember.Route.extend({
       this.transitionTo('/');
     });
 
-    return this.get('products').find(parseInt(params.id));
+    return this.get('products').find(params.id);
   }
 });
