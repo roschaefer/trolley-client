@@ -14,5 +14,8 @@ export default Ember.Route.extend({
       //this.transitionTo('products', eventParams.id);
       this.get('sessionState').updatePriority(eventParams.priority, eventParams.state);
     });
+  },
+  redirect: function () {
+    this.transitionTo('overview');
   }
 });
