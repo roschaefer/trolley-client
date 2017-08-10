@@ -3,7 +3,9 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   sessionState: Ember.inject.service(),
   communication: Ember.inject.service(),
+
   model(params) {
+
     this.get('communication').setEventListener('rightButtonClick', () => {
       let nextPriority = this.get('sessionState').nextPriority();
       if (nextPriority) {
@@ -12,6 +14,7 @@ export default Ember.Route.extend({
         this.transitionTo('products', params.id);
       }
     });
-    return params.id;
+
+    return this.store.find('product', params.id);
   }
 });
