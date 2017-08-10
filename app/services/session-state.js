@@ -5,15 +5,17 @@ export default Ember.Service.extend({
   cartItems: [],
   shoppingListItems: [],
   priorities: [],
+
   init(){
     this._super(...arguments);
   },
-  addToCart(item){
+
+  addToCart(item) {
     this.get('cartItems').pushObject(item);
     this.notifyPropertyChange('cartItems');
   },
 
-  updatePriority(priority, state){
+  updatePriority(priority, state) {
     if (!(prioritySet.includes(priority))) { return }
     let updatePriorities = this.get('priorities');
     if (state) {
@@ -23,7 +25,8 @@ export default Ember.Service.extend({
     }
     this.set('priorities', updatePriorities.uniq());
   },
-  nextPriority(priority){
+
+  nextPriority(priority) {
     let nextPriority;
     if (priority) {
       const lastIndex = this.get('priorities').lastIndexOf(priority);

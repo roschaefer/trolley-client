@@ -1,8 +1,22 @@
 <div class="c-shopping-summary">
-    <div class="c-shopping-summary__item">
-        {{facts-item value="200 km" info="Produktionsweg"}}
-    </div>
-    <div class="c-shopping-summary__item">
-        {{facts-item value="10 Würfel" info="Zucker"}}
-    </div>
+    {{#if (includes activePriorities "regional")}}
+        <div class="c-shopping-summary__item">
+            {{facts-item value=totalDistance unit="km" info="Produktionsweg"}}
+        </div>
+    {{/if}}
+    {{#if (includes activePriorities "organic")}}
+        <div class="c-shopping-summary__item">
+            {{facts-item value=(concat totalOrganic ' / ' cartItems.length) info="Bio-Produkte"}}
+        </div>
+    {{/if}}
+    {{#if (includes activePriorities "sugar")}}
+        <div class="c-shopping-summary__item">
+            {{facts-item value=totalSugar unit="Gramm" info="Zucker"}}
+        </div>
+    {{/if}}
+    {{#if (includes activePriorities "price")}}
+        <div class="c-shopping-summary__item">
+            {{facts-item value=totalPrice unit="€" info="Preis"}}
+        </div>
+    {{/if}}
 </div>
