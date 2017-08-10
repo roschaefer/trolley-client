@@ -5,6 +5,7 @@ export default [
         name: 'Brokkoli',
         group: 'Brokkoli',
         distance: 124,
+        price: NaN,
         sugar: 1.7
     },
     {
@@ -13,6 +14,7 @@ export default [
         name: 'Brokkoli',
         group: 'Brokkoli',
         distance: 171,
+        price: NaN,
         sugar: 1.7
     },
     {
@@ -21,6 +23,7 @@ export default [
         name: 'Eier aus Bodenhaltung',
         group: 'Eier',
         distance: 17,
+        price: 1.49,
         sugar: 1.1
     },
     {
@@ -29,6 +32,7 @@ export default [
         name: 'Freilandeier',
         group: 'Eier',
         distance: 13,
+        price: 2.7,
         sugar: 1.1
     },
     {
@@ -37,6 +41,7 @@ export default [
         name: 'Bio Eier',
         group: 'Erier',
         distance: 112,
+        price: 2.65,
         sugar: 1.1
     },
     {
@@ -45,6 +50,7 @@ export default [
         name: 'Lachsfilet',
         group: 'Fischfilet',
         distance: 7807,
+        price: 2.49,
         sugar: 0
     },
     {
@@ -53,6 +59,7 @@ export default [
         name: 'Bio Lachsfilet',
         group: 'Fischfilet',
         distance: 1437,
+        price: 7.99,
         sugar: 0
     },
     {
@@ -61,6 +68,7 @@ export default [
         name: 'Junger Gouda',
         group: 'Käse',
         distance: 347,
+        price: 1.99,
         sugar: 0.1
     },
     {
@@ -69,6 +77,7 @@ export default [
         name: 'Alter Schwede',
         group: 'Käse',
         distance: 757,
+        price: 1.29,
         sugar: 0.1
     },
     {
@@ -77,6 +86,7 @@ export default [
         name: 'Schlagsahne',
         group: 'Sahne',
         distance: 93,
+        price: 0.49,
         sugar: 3.2
     },
     {
@@ -85,6 +95,7 @@ export default [
         name: 'Bio Schlagsahne',
         group: 'Sahne',
         distance: 755,
+        price: 1.39,
         sugar: 3.1
     },
     {
@@ -93,6 +104,7 @@ export default [
         name: 'Schlagsahne',
         group: 'Sahne',
         distance: 154,
+        price: 0.99,
         sugar: 3.2
     },
     {
@@ -101,6 +113,7 @@ export default [
         name: 'Erdbeeren',
         group: 'Erdbeeren',
         distance: 61,
+        price: NaN,
         sugar: 4.9
     },
     {
@@ -109,6 +122,7 @@ export default [
         name: 'Erdbeeren',
         group: 'Erdbeeren',
         distance: 18,
+        price: NaN,
         sugar: 4.9
     },
     {
@@ -117,6 +131,7 @@ export default [
         name: 'Fischstäbchen',
         group: 'Fischstäbchen',
         distance: 15464,
+        price: 2.89,
         sugar: 0.8
     },
     {
@@ -125,6 +140,7 @@ export default [
         name: 'Fischstäbchen',
         group: 'Fischstäbchen',
         distance: 15464,
+        price: 2.89,
         sugar: 2
     },
     {
@@ -133,6 +149,7 @@ export default [
         name: 'Sonntagskaffee',
         group: 'Kaffee',
         distance: 9208,
+        price: 4.99,
         sugar: 0
     },
     {
@@ -141,6 +158,7 @@ export default [
         name: 'Kaffee Mild',
         group: 'Kaffee',
         distance: 31000,
+        price: 3.79,
         sugar: 0
     },
     {
@@ -149,6 +167,7 @@ export default [
         name: 'Bio Kaffee',
         group: 'Kaffee',
         distance: 10684,
+        price: 6.49,
         sugar: 0
     },
     {
@@ -157,6 +176,7 @@ export default [
         name: 'TK-Rahmspinat',
         group: 'TK-Rahmspinat',
         distance: 61,
+        price: 0.49,
         sugar: 1.7
     },
     {
@@ -165,6 +185,7 @@ export default [
         name: 'TK-Rahmspinat',
         group: 'TK-Rahmspinat',
         distance: 354,
+        price: 1.29,
         sugar: 1.7
     },
     {
@@ -173,6 +194,7 @@ export default [
         name: 'Schwarzwälder Schinken',
         group: 'Schinken',
         distance: 766,
+        price: 2.99,
         sugar: 0.3
     },
     {
@@ -181,6 +203,7 @@ export default [
         name: 'Schinken',
         group: 'Schinken',
         distance: 60,
+        price: NaN,
         sugar: 0.3
     },
     {
@@ -189,6 +212,7 @@ export default [
         name: 'Schwarzwälder Schinken',
         group: 'Schinken',
         distance: 766,
+        price: 1.89,
         sugar: 0.3
     },
     {
@@ -197,6 +221,7 @@ export default [
         name: 'Frische Vollmilch 3,5% ',
         group: 'Milch',
         distance: 87,
+        price: 0.68,
         sugar: 4.8
     },
     {
@@ -205,6 +230,7 @@ export default [
         name: 'Frische Vollmilch 3,8% ',
         group: 'Milch',
         distance: 78,
+        price: 1.19,
         sugar: 4.9
     },
     {
@@ -213,6 +239,7 @@ export default [
         name: 'Frische Vollmilch 3,8% ',
         group: 'Milch',
         distance: 189,
+        price: 1.39,
         sugar: 4.8
     },
     {
@@ -221,6 +248,7 @@ export default [
         name: 'Frische Vollmilch 3,5% ',
         group: 'Milch',
         distance: 138,
+        price: 1.59,
         sugar: 4.8
     },
     {
@@ -229,6 +257,7 @@ export default [
         name: 'Frischkäse',
         group: 'Frischkäse',
         distance: 392,
+        price: 0.85,
         sugar: 3
     },
     {
@@ -237,6 +266,7 @@ export default [
         name: 'Frischkäse',
         group: 'Frischkäse',
         distance: 621,
+        price: 0.99,
         sugar: 3
     },
     {
@@ -245,6 +275,7 @@ export default [
         name: 'Frischkäse',
         group: 'Frischkäse',
         distance: 860,
+        price: 1.39,
         sugar: 4.1
     },
     {
@@ -253,6 +284,7 @@ export default [
         name: 'Toskana',
         group: 'Fertiggericht',
         distance: 10062,
+        price: NaN,
         sugar: 3
     },
     {
@@ -261,6 +293,7 @@ export default [
         name: 'Pils',
         group: 'Bier',
         distance: 139,
+        price: NaN,
         sugar: 0.1
     },
     {
@@ -269,6 +302,7 @@ export default [
         name: 'Pils',
         group: 'Bier',
         distance: 23,
+        price: NaN,
         sugar: 0.1
     }
 ];
