@@ -1,4 +1,4 @@
-import Ember from 'ember';
+ import Ember from 'ember';
 
 const prioritySet =  ['regional', 'organic', 'sugar', 'price'];
 export default Ember.Service.extend({

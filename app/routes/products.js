@@ -3,6 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   sessionState: Ember.inject.service(),
   communication: Ember.inject.service(),
+  products: Ember.inject.service(),
 
   model(params) {
 
@@ -15,6 +16,10 @@ export default Ember.Route.extend({
       }
     });
 
-    return this.store.find('product', params.id);
+    this.get('communication').setEventListener('leftButtonClick', () => {
+      this.transitionTo('/');
+    });
+
+    return this.get('products').find(parseInt(params.id));
   }
 });

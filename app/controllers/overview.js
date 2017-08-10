@@ -4,6 +4,12 @@ export default Ember.Controller.extend({
 
   sessionState: Ember.inject.service(),
 
+  products: Ember.inject.service(),
+
+  visibleProducts: Ember.computed(function() {
+    return this.get('products').all()
+  }),
+
   activePriorities: Ember.computed('sessionState.priorities', function() {
     return this.get('sessionState.priorities');
   }),
@@ -20,7 +26,7 @@ export default Ember.Controller.extend({
 
   totalDistance: Ember.computed('sessionState.cartItems', function() {
     return this.get('sessionState.cartItems').reduce((distance, item) => {
-      return (distance + item.get('distance')).toFixed(0);
+      return (distance + item.distance).toFixed(0);
     }, 0);
   }),
 
@@ -30,13 +36,13 @@ export default Ember.Controller.extend({
 
   totalSugar: Ember.computed('sessionState.cartItems', function() {
     return this.get('sessionState.cartItems').reduce((sugar, item) => {
-      return (sugar + item.get('sugar')).toFixed(1);
+      return (sugar + item.sugar).toFixed(1);
     }, 0);
   }),
 
   totalPrice: Ember.computed('sessionState.cartItems', function() {
     return this.get('sessionState.cartItems').reduce((price, item) => {
-      return (price + item.get('price')).toFixed(2);
+      return (price + item.price).toFixed(2);
     }, 0);
   }),
 
