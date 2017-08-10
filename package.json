@@ -16,7 +16,7 @@
     "build": "ember build",
     "start": "ember server",
     "test": "ember test",
-    "deploy": "ember build --environment=production && scp -r dist pi@192.168.178.52:~/StoryTrolley/client/"
+    "deploy": "ember build --environment=development && scp -r dist pi@192.168.178.52:~/StoryTrolley/client/"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
