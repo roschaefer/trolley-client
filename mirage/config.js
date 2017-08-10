@@ -23,16 +23,11 @@ export default function() {
 
     http://www.ember-cli-mirage.com/docs/v0.3.x/shorthands/
     */
-  this.get('/products', (schema/*, request*/) => {
-    return schema.products.all();
-  });
-  this.get('/products/:id', ({products}, request) => {
-    return products.find(request.params.id);
-  });
+  this.get('/products');
+  this.get('/products/:id');
   this.get('/product-rfids/:tag', ({productRfids}, request) => {
     return productRfids.find(request.params.tag);
   });
-  this.get('/product-details/:id', ({productDetails}, request) => {
-    return productDetails.find(request.params.id);
-  });
+  this.get('/product-details/:id');
+  this.get('/product-detail-seals/:id')
 }
