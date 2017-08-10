@@ -6,7 +6,13 @@
     <h1 class="c-section-header u-is-highlight">{{model.product.name}}</h1>
     {{#if (equals detail.type "slide")}}
 
-    {{details/product-slide}}
+    {{details/product-slide detail=detail}}
+
+    {{/if}}
+
+    {{#if (equals detail.type "video")}}
+
+        {{details/product-video detail=detail}}
 
     {{/if}}
 

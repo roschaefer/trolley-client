@@ -52,7 +52,7 @@ export let data = [
                 "type": "slide",
                 "headline": "Nicht gerade nebenan...",
                 "text": "Der Bio-Brokkoli kommt aus Friedrichsgabekoog und hat damit auf dem Weg nach Lüneburg noch mehr Kilometer als der konventionelle Brokkoli hinter sich gelassen.",
-                "filename": ""
+                "filename": "http://gph.is/1pelYzS"
             },
             "sugar": {
                 "priority": "sugar",
@@ -82,21 +82,21 @@ export let data = [
                 "type": "slide",
                 "headline": "Eier aus der Nachbarschaft",
                 "text": "Der Geflügelhof Hirsch aus Handorf ist nur 17km von Lüneburg entfernt, die Eier haben es also nicht weit bis in den Markt.",
-                "filename": ""
+                "filename": "eier_bodenhaltung_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "Ein Ei ist ein Ei ist ein Ein...",
                 "text": "Ei ist Ei - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 1,1 Gramm pro 100 Gramm Ei.",
-                "filename": ""
+                "filename": "eier_bodenhaltung_regional.jpg"
             },
             "price": {
                 "priority": "price",
                 "type": "slide",
                 "headline": "Preissieger",
                 "text": "In der Kategorie \"Preis\" liegen die Eier aus Bodenhaltung vom Hof Hirsch klar vorn - günstiger als 25 Cent pro Ei geht es nicht.",
-                "filename": ""
+                "filename": "eier_bodenhaltung_regional.jpg"
             }
         }
     },
@@ -119,21 +119,21 @@ export let data = [
                 "type": "slide",
                 "headline": "Eier aus der Nachbarschaft",
                 "text": "Spitzenreiter in der Kategorie \"Regionalität\" - die Freilandeier vom Hof Müller-Hartmann brauchen bloß 13km bis in den Markt - quasi nebenan.",
-                "filename": "https://giphy.com/gifs/chicken-BIo5QXYD7LGbm"
+                "filename": "eier_wanderhuehner_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "Ein Ei ist ein Ei ist ein Ein...",
                 "text": "Ei ist Ei - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 1,1 Gramm pro 100 Gramm Ei.",
-                "filename": ""
+                "filename": "eier_wanderhuehner_regional.jpg"
             },
             "price": {
                 "priority": "price",
                 "type": "slide",
                 "headline": "Scholle wechsle Dich",
                 "text": "Teurer als Bio-Eier: Mit 45 Cent sind die Freilandeier vom Hof Müller-Hartmann Schlusslicht im Preisvergleich. Schließlich schickt er seine Ställe voller Hühner alle acht bis zehn Tage auf Wanderschaft auf eine neue Scholle.",
-                "filename": ""
+                "filename": "eier_wanderhuehner_regional.jpg"
             }
         }
     },
@@ -158,24 +158,24 @@ export let data = [
         "details": {
             "regional": {
                 "priority": "regional",
-                "type": "slide",
+                "type": "video",
                 "headline": "Weit gereist...",
                 "text": "Bio, aber in der direkten Umgebung wohnen die Hühner trotzdem nicht. Stolze 112 km brauchen die Eier vom Bauckhof bis in den Markt.",
-                "filename": "VIDEO Regional"
+                "filename": "Eier_Bauckhof_regional.mp4"
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "slide",
+                "type": "video",
                 "headline": "Ein Ei ist ein Ei ist ein Ein...",
                 "text": "Ei ist Ei - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 1,1 Gramm pro 100 Gramm Ei.",
-                "filename": ""
+                "filename": "Eier_Bauckhof_regional.mp4"
             },
             "price": {
                 "priority": "price",
-                "type": "slide",
+                "type": "video",
                 "headline": "Goldei",
                 "text": "Wenns dennauch doppelt so gut schmeckt wie das Ei zwei Schritte weiter, das fast die Hälfte kostet, nämlich 22 Cent statt 45 Cent.",
-                "filename": ""
+                "filename": "Eier_Bauckhof_bio.mp4"
             }
         }
     },
@@ -201,22 +201,22 @@ export let data = [
                 "priority": "regional",
                 "type": "slide",
                 "headline": "Weit gereist...",
-                "text": "Wahrscheinlich ist dieser Lach Economy gereist – tiefgefroren, 7800 Kilometer bis in Deinen Einkaufswagen.",
-                "filename": ""
+                "text": "Wahrscheinlich ist dieser Lachs Economy gereist – tiefgefroren, 7800 Kilometer bis in deinen Einkaufswagen.",
+                "filename": "lachs_gug_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "Zucker? Welcher Zucker?",
                 "text": "Zero Zucker - Jackpot!",
-                "filename": ""
+                "filename": "lachs_gug_regional.jpg"
             },
             "price": {
                 "priority": "price",
                 "type": "slide",
                 "headline": "Billiger Fischkopp",
                 "text": "62 Cent pro 100 Gramm Lachsfilet - günstiger geht's nicht mehr. ",
-                "filename": ""
+                "filename": "lachs_gug_regional.jpg"
             }
         }
     },
@@ -241,15 +241,15 @@ export let data = [
                 "priority": "regional",
                 "type": "slide",
                 "headline": "Regional – für Norweger",
-                "text": "Das Bio-Lachsfilet von followfish stammt auch nicht unbedingt aus der direkten Umgebung. Aber es kommt aus einer Zucht. Und hat so auf dem Weg von Norwegen bis in den Lüneburger Markt hat er immerhin \"nur\" 1437km hinter sich gelassen - ein Fünftel der Strecke, die das Lachsfilet von gut & günstig braucht.",
-                "filename": "http://gph.is/1sFG8oq"
+                "text": "Das Bio-Lachsfilet von followfish stammt auch nicht unbedingt aus der direkten Umgebung. Aber es kommt aus einer Zucht. Und hat so auf dem Weg von Norwegen bis in den Lüneburger Markt immerhin \"nur\" 1437km hinter sich gelassen - ein Fünftel der Strecke, die das Lachsfilet von gut & günstig braucht.",
+                "filename": ""
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "Zucker? Welcher Zucker?",
                 "text": "Zero Zucker - Jackpot!",
-                "filename": ""
+                "filename": "lachs_followfish_regional.jpg"
             },
             "price": {
                 "priority": "price",
@@ -278,15 +278,15 @@ export let data = [
                 "priority": "regional",
                 "type": "slide",
                 "headline": "Regionaler als der Rest",
-                "text": "Mit einer Entfernung von 347km ist der junge Gouda von gut & günstig noch der Regionalisten Käse in dieser Kategorie.",
-                "filename": ""
+                "text": "Mit einer Entfernung von 347km ist der junge Gouda von gut & günstig noch der regionalste Käse in dieser Kategorie.",
+                "filename": "gouda_gug_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "Fast, aber eben nur fast...",
                 "text": "Fast zuckerfrei, aber an den 0,1 Gramm Zucker pro 100 Gramm Gouda kommt man halt nicht ganz vorbei.",
-                "filename": "http://gph.is/1vH0L1F"
+                "filename": ""
             },
             "price": {
                 "priority": "price",
@@ -316,14 +316,14 @@ export let data = [
                 "type": "slide",
                 "headline": "Aufschneider?",
                 "text": "Die Molkerei Rücker aus dem ostfriesischem Aurich wirbt mit den Küsten Norddeutschlands. Die Milch wird regional auf 850 Höfen gemolken und zu Käse verarbeitet. Danach reist der Käse allerdings über 700 Kilometer weit nach Bayern und wieder zurück: zum Aufschneiden. Alter Schwede!",
-                "filename": "kaese_ruecker_regional.jpg"
+                "filename": "kaese_ruecker_regional2.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "Fast, aber eben nur fast...",
                 "text": "Fast zuckerfrei, aber an den 0,1 Gramm Zucker pro 100 Gramm Gouda kommt man halt nicht ganz vorbei.",
-                "filename": "http://gph.is/Hqefci"
+                "filename": ""
             }
         }
     },
@@ -331,7 +331,8 @@ export let data = [
         "id": 12,
         "rfids": [
             "5400CA3F44E5",
-            "5400C8F5FF96"
+            "5400C8F5FF96",
+            "0800F92B74AE"
         ],
         "brand": "gut &günstig",
         "name": "Schlagsahne",
@@ -345,21 +346,21 @@ export let data = [
                 "type": "slide",
                 "headline": "Schlägt die anderen",
                 "text": "Näher wird keiner produziert - nur 93km braucht die Schlagsahne von gut & günstig bi in den Markt nach Lüneburg.",
-                "filename": ""
+                "filename": "sahne_gug_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "Wenig Zucker, aber...",
                 "text": "3,2 Gramm Zucker pro 100 Gramm Sahne - hinzu kommen aber auch 30 Gramm Fett, die ordentlich ins Gewicht fallen. Di",
-                "filename": ""
+                "filename": "sahne_gug_regional.jpg"
             },
             "price": {
                 "priority": "price",
                 "type": "slide",
                 "headline": "Kam, Sahne, Siegte",
                 "text": "Günstiger geht Sahne nicht. Die 49 Cent pro Becher lassen jeden Milchbauern unruhig schlafen.",
-                "filename": ""
+                "filename": "sahne_gug_regional.jpg"
             }
         }
     },
@@ -400,7 +401,7 @@ export let data = [
                 "type": "slide",
                 "headline": "",
                 "text": "Von Bioland, Demeter, Naturland und Biokreis bezieht die Andechser Molkerei Scheitz täglich frisch ihren wichtigsten Rohstoff: die Bio-Milch. Natürlich zu einem anständigen Presi für die Bauern.",
-                "filename": ""
+                "filename": "sahne_andechser_bio.jpg"
             }
         }
     },
@@ -423,14 +424,14 @@ export let data = [
                 "type": "slide",
                 "headline": "Mitelfeld in Sachen Regionalität",
                 "text": "154 km - so weit braucht die Hansano Schlagsahne von der Produktionsstätte in Upahl bis in den Lüneburger Markt. Immerhin Platz 2 in der Kategorie \"Regionalität\".",
-                "filename": ""
+                "filename": "sahne_hansano_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "Wenig Zucker, aber...",
                 "text": "3,2 Gramm Zucker pro 100 Gramm Sahne - hinzu kommen aber auch 30 Gramm Fett, die ordentlich ins Gewicht fallen.",
-                "filename": ""
+                "filename": "sahne_gug_regional.jpg"
             }
         }
     },
@@ -453,14 +454,14 @@ export let data = [
                 "type": "slide",
                 "headline": "Herkunft? Unbekannt!",
                 "text": "Edeka sagt (noch) nicht, wo die Erdbeeren wachsen. Angegeben ist nur die 61 Kilometer entfernte Edeka Zentrale. Ob sie dort angebaut werden?",
-                "filename": ""
+                "filename": "erdbeeren_spanien_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "Der gesunde Snack",
                 "text": "100 Gramm Erdbeeren enthalten 4,9 Gramm Zucker - nur halb so viel wie beispielsweise Kirschen.",
-                "filename": ""
+                "filename": "erdbeeren_spanien_regional.jpg"
             }
         }
     },
@@ -490,7 +491,7 @@ export let data = [
                 "type": "slide",
                 "headline": "Der gesunde Snack",
                 "text": "100 Gramm Erdbeeren enthalten 4,9 Gramm Zucker - nur halb so viel wie beispielsweise Kirschen.",
-                "filename": ""
+                "filename": "erdbeeren_strampe_regional.jpg"
             }
         }
     },
@@ -520,9 +521,9 @@ export let data = [
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
-                "headline": "",
+                "headline": "Nur halb so viel",
                 "text": "0,8 Gramm Zucker pro 100 Gramm Fischstäbchen - das ist rund 50 % weniger als bei der Konkurrenz Frosta.",
-                "filename": ""
+                "filename": "fischstaebchen_frosta_regional.jpg"
             }
         }
     },
@@ -554,7 +555,7 @@ export let data = [
                 "type": "slide",
                 "headline": "",
                 "text": "2 Gramm Zucker pro 100 Gramm Fischstäbchen - das ist rund 50 % mehr als bei der Konkurrenz Iglo. ",
-                "filename": ""
+                "filename": "fischstaebchen_frosta_regional.jpg"
             }
         }
     },
@@ -581,9 +582,16 @@ export let data = [
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
-                "headline": "",
-                "text": "Nix, null, nada, niente, nothing - im Kaffee steckt kein bisschen Zucker - zumindest solange man ihn schwarz trinkt. Das ",
-                "filename": ""
+                "headline": "Zero Zucker!",
+                "text": "Nix, null, nada, niente, nothing - im Kaffee steckt kein bisschen Zucker - zumindest solange man ihn schwarz trinkt wie Beckings Chefröster Sönke Plautz.",
+                "filename": "kaffee_becking_bio.jpg"
+            },
+            "price": {
+                "priority": "price",
+                "type": "slide",
+                "headline": "Was Besonderes für Sonntage",
+                "text": "Beckings Sonntagskaffee ist tatsächlich einer der teuersten im Regal. Aber er soll eben was Besonderes sein. \"Ich trinke doch lieber weniger Kaffee, der gut schmeckt, als Kannenweise schlechten\"; sagt Chefröster Sönke Plautz.",
+                "filename": "kaffee_becking_bio.jpg"
             }
         }
     },
@@ -603,16 +611,23 @@ export let data = [
             "regional": {
                 "priority": "regional",
                 "type": "slide",
-                "headline": "Weltenbummler",
+                "headline": "Günstige Weltreise",
                 "text": "Wird vermutlich Hamburg geröstet, die Bohnen wachsen aber vermutlich in Vietnam und Brasilien. Wir haben die Bohnen aus Vietnam berechnet, die rund 31.000 Kilometer weit um die halbe Welt reisen.",
                 "filename": "kaffee_gug_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
-                "headline": "",
-                "text": "Nix, null, nada, niente, nothing - im Kaffee steckt kein bisschen Zucker - zumindest solange man ihn schwarz trinkt. Das ",
-                "filename": ""
+                "headline": "Zero Zucker",
+                "text": "Nix, null, nada, niente, nothing - im Kaffee steckt kein bisschen Zucker - zumindest solange man ihn schwarz trinkt.",
+                "filename": "kaffee_gug_regional.jpg"
+            },
+            "price": {
+                "priority": "price",
+                "type": "slide",
+                "headline": "Kannenweise",
+                "text": "Für einen Euro kann man von diesem Kaffee seinen Tageskonsum stillen – selbst als Vieltrinker. ",
+                "filename": "kaffee_gug_regional.jpg"
             }
         }
     },
@@ -644,8 +659,15 @@ export let data = [
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "",
-                "text": "Nix, null, nada, niente, nothing - im Kaffee steckt kein bisschen Zucker - zumindest solange man ihn schwarz trinkt. Das ",
-                "filename": ""
+                "text": "Nix, null, nada, niente, nothing - im Kaffee steckt kein bisschen Zucker - zumindest solange man ihn schwarz trinkt.",
+                "filename": "kaffee_tempelmann_symbol.jpg"
+            },
+            "price": {
+                "priority": "price",
+                "type": "slide",
+                "headline": "Der Preis: Anbetungswürdig",
+                "text": "Tempelmann macht nicht auf billig.",
+                "filename": "kaffee_tempelmann_symbol.jpg"
             }
         }
     },
@@ -674,6 +696,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Ein Spinat wie der andere...",
                 "text": "1,7 Gramm Zucker pro 100 Gramm Spinat, da Unterscheiden sich die Produkte von Iglo und Gut & Günstig nicht.",
+                "filename": "tkspinat_edeka_regional.jpg"
+            },
+            "price": {
+                "priority": "price",
+                "type": "slide",
+                "headline": "Kraft für 49 Cent",
+                "text": "Spinat soll kräftig machen – ob das stimmt ist umstritten. Immerhin schont er den Geldbeutel, das steht bei einem Preis von 49 Cent fest.",
                 "filename": ""
             }
         }
@@ -704,7 +733,14 @@ export let data = [
                 "type": "slide",
                 "headline": "Ein Spinat wie der andere...",
                 "text": "1,7 Gramm Zucker pro 100 Gramm Spinat, da Unterscheiden sich die Produkte von Iglo und Gut & Günstig nicht.",
-                "filename": "https://giphy.com/gifs/popeye-lIMgewxzxoQgw"
+                "filename": ""
+            },
+            "price": {
+                "priority": "price",
+                "type": "slide",
+                "headline": "Teurer Blubb",
+                "text": "1,29 Euro ruft Iglo für den Rahmspinat auf. Das ist mehr als doppelt soviel, wie der Rahmspinat von gut&günstig. Ob er doppelt so gut schmeckt?",
+                "filename": "tkspinat_edeka_regional.jpg"
             }
         }
     },
@@ -730,14 +766,14 @@ export let data = [
                 "type": "slide",
                 "headline": "Kuckuck da unten",
                 "text": "Die Räucherei liegt 766 Kilometer entfernt, ist also ganz und gar nicht regional. Immerhin ist garantiert, dass der Schwarzwälder Schinken wenigstens eine Zeit im Schwarzwald im Rauch hing.",
-                "filename": ""
+                "filename": "schinken_gug_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "",
                 "text": "Nur 0,3 Gramm Zucker, sogar 26 Gramm Eiweiß pro 100 Gramm Schinken - ein richtiges Energiepaket.",
-                "filename": ""
+                "filename": "schinken_basedahl_bio.jpg"
             }
         }
     },
@@ -766,7 +802,7 @@ export let data = [
                 "type": "slide",
                 "headline": "",
                 "text": "Nur 0,3 Gramm Zucker, sogar 26 Gramm Eiweiß pro 100 Gramm Schinken - ein richtiges Energiepaket.",
-                "filename": "http://gph.is/17hitOV"
+                "filename": ""
             },
             "price": {
                 "priority": "price",
@@ -802,7 +838,7 @@ export let data = [
                 "type": "slide",
                 "headline": "",
                 "text": "Nur 0,3 Gramm Zucker, sogar 26 Gramm Eiweiß pro 100 Gramm Schinken - ein richtiges Energiepaket.",
-                "filename": "http://gph.is/2cFZvJ5"
+                "filename": ""
             }
         }
     },
@@ -839,9 +875,9 @@ export let data = [
             "price": {
                 "priority": "price",
                 "type": "slide",
-                "headline": "",
-                "text": "Da steckt das günstig schon im Namen: Weniger als 68 Cent pro Liter gut & günstig Milch geht einfach nicht.",
-                "filename": ""
+                "headline": "Da leidet der Bauer",
+                "text": "Da steckt das günstig schon im Namen: Weniger als 68 Cent pro Liter gut & günstig Milch geht einfach nicht. Wer die kauft hat kein Mitleid mit Bauern.",
+                "filename": "milch_gug_preis2.jpg"
             }
         }
     },
@@ -867,14 +903,21 @@ export let data = [
                 "type": "slide",
                 "headline": "The Milch next door...",
                 "text": "Die Milch von Alnatura - nicht nur durch verschiedene Siegel ausgezeichnet, sondern mit einem Weg von 78km auch noch das regionalste Produkt.",
-                "filename": ""
+                "filename": "milch_alnatura_regional.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "",
                 "text": "4,9 Gramm Zucker pro 100 Mililiter enthält die frische Vollmilch von Alnatura. Damit hat sie 0,1 Gramm mehr als die Konkurrenz und landet knapp auf dem letzen Platz.",
-                "filename": ""
+                "filename": "milch_alnatura_regional.jpg"
+            },
+            "price": {
+                "priority": "price",
+                "type": "slide",
+                "headline": "Bauernnothilfe",
+                "text": "Alnatura verspricht faire Preise für die deutschen Milchbauern. Deshalb ist die Milch eben auch etwas teurer. Und bio noch dazu. Ist das nicht 1,19 Euro wert?",
+                "filename": "milch_gug_preis2.jpg"
             }
         }
     },
@@ -900,14 +943,21 @@ export let data = [
                 "type": "slide",
                 "headline": "Milch aus Witzwort - kein Witz",
                 "text": "Gibt Orte, die glaubt man nicht. Aus Witzwort kommt diese Milch, das ist 189 Kilometer von Lüneburg entfernt.",
-                "filename": ""
+                "filename": "milch_delwes_regio.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "",
-                "text": "Milch ist Milch - zumindes was den Zucke angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 4,8 Gramm pro 100 Mililiter Milch.",
+                "text": "Milch ist Milch - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 4,8 Gramm pro 100 Mililiter Milch.",
                 "filename": ""
+            },
+            "price": {
+                "priority": "price",
+                "type": "slide",
+                "headline": "Gerechter Lohn für Kuh…",
+                "text": "…und Bauern. Sind 1,39 Euro pro Liter viel Geld für ein Naturprodukt wie Milch, noch dazu, wenn es Bio ist?",
+                "filename": "milch_alnatura_regional.jpg"
             }
         }
     },
@@ -933,13 +983,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Kühe von norddeutschen Wiesen",
                 "text": "\"Aus Norddeutschland - traditionell hergestellt\" steht auf der Packung. Und tatsächlich braucht die Milch auch nur etwa 138km aus dem norddeutschen Lilienthal bis in den Markt.",
-                "filename": ""
+                "filename": "milch_delwes_regio.jpg"
             },
             "sugar": {
                 "priority": "sugar",
                 "type": "slide",
                 "headline": "",
-                "text": "Milch ist Milch - zumindes was den Zucke angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 4,8 Gramm pro 100 Mililiter Milch.",
+                "text": "Milch ist Milch - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 4,8 Gramm pro 100 Mililiter Milch.",
                 "filename": ""
             }
         }
@@ -962,6 +1012,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Straight outta Viby",
                 "text": "Aus dem Arla-Werk unserer dänischen Freunde stammt dieser gut & günstig Frischkäse. Auf dem Weg von Viby (bei Aarhus) bis in den Lüneburger Markt legt er eine Strecke von 392km zurück.",
+                "filename": "milch_arla_regional.jpg"
+            },
+            "sugar": {
+                "priority": "sugar",
+                "type": "slide",
+                "headline": "Geteilte Freude...",
+                "text": "Was hat Frischkäse aus Dänemark und Frischkäse aus Bayern gemeinsam? Nicht viel, außer einen Zuckergehalt von 3 Gramm pro 100 Gramm Frischkäse.",
                 "filename": ""
             },
             "price": {
@@ -995,6 +1052,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Mia san Frischkäse",
                 "text": "Dieser Frischkäse stammt aus Regensburg. Zwar bio, aber regional ist anders.",
+                "filename": ""
+            },
+            "sugar": {
+                "priority": "sugar",
+                "type": "slide",
+                "headline": "Geteilte Freude...",
+                "text": "Was hat Frischkäse aus Dänemark und Frischkäse aus Bayern gemeinsam? Nicht viel, außer einen Zuckergehalt von 3 Gramm pro 100 Gramm Frischkäse.",
                 "filename": ""
             }
         }
@@ -1160,5 +1224,6 @@ export let data = [
                 "filename": ""
             }
         }
-    } ];
+    }
+];
 
