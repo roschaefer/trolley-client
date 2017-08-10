@@ -9,5 +9,6 @@ export default function(server) {
   //server.createList('product', 10);
   server.loadFixtures('products');
   server.loadFixtures('product-rfids');
+  server.loadFixtures('product-details');
 
 }
