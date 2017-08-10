@@ -1160,6 +1160,5 @@ export let data = [
                 "filename": ""
             }
         }
-    }
-} ];
+    } ];
 
