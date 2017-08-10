@@ -9,6 +9,7 @@ export default Ember.Controller.extend({
   }),
 
   nextPriorityLabel: Ember.computed('sessionState.priorities', function() {
+    let product = this.get('model');
     let labels = {
         regional: 'Regional?',
         organic: 'Bio?',
@@ -17,7 +18,7 @@ export default Ember.Controller.extend({
     };
     let next = this.get('sessionState').nextPriority();
 
-    if(next) {
+    if(next && typeof product.details[next] !== 'undefined') {
         return labels[next];
     } else {
         return null;
