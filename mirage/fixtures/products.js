@@ -5,7 +5,7 @@ export default [
         name: 'Brokkoli',
         group: 'Brokkoli',
         distance: 124,
-        price: NaN,
+        price: 0,
         sugar: 1.7
     },
     {
@@ -14,7 +14,7 @@ export default [
         name: 'Brokkoli',
         group: 'Brokkoli',
         distance: 171,
-        price: NaN,
+        price: 0,
         sugar: 1.7
     },
     {
@@ -113,7 +113,7 @@ export default [
         name: 'Erdbeeren',
         group: 'Erdbeeren',
         distance: 61,
-        price: NaN,
+        price: 0,
         sugar: 4.9
     },
     {
@@ -122,7 +122,7 @@ export default [
         name: 'Erdbeeren',
         group: 'Erdbeeren',
         distance: 18,
-        price: NaN,
+        price: 0,
         sugar: 4.9
     },
     {
@@ -203,7 +203,7 @@ export default [
         name: 'Schinken',
         group: 'Schinken',
         distance: 60,
-        price: NaN,
+        price: 0,
         sugar: 0.3
     },
     {
@@ -284,7 +284,7 @@ export default [
         name: 'Toskana',
         group: 'Fertiggericht',
         distance: 10062,
-        price: NaN,
+        price: 0,
         sugar: 3
     },
     {
@@ -293,7 +293,7 @@ export default [
         name: 'Pils',
         group: 'Bier',
         distance: 139,
-        price: NaN,
+        price: 0,
         sugar: 0.1
     },
     {
@@ -302,7 +302,15 @@ export default [
         name: 'Pils',
         group: 'Bier',
         distance: 23,
-        price: NaN,
+        price: 0,
         sugar: 0.1
-    }
-];
+    },
+    {
+        id: 37,
+        brand: '',
+        name: '',
+        group: '',
+        distance: 0,
+        price: 0,
+        sugar: 0
+    }];
