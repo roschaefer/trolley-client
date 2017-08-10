@@ -2,8 +2,8 @@ import { expect } from 'chai';
 import { describe, it } from 'mocha';
 import { setupModelTest } from 'ember-mocha';
 
-describe('Unit | Model | product/rfid', function() {
-  setupModelTest('product/rfid', {
+describe('Unit | Model | product rfid', function() {
+  setupModelTest('product-rfid', {
     // Specify the other units that are required for this test.
       needs: []
   });

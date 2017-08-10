@@ -2,8 +2,8 @@ import { expect } from 'chai';
 import { describe, it } from 'mocha';
 import { setupModelTest } from 'ember-mocha';
 
-describe('Unit | Model | product/detail/seal', function() {
-  setupModelTest('product/detail/seal', {
+describe('Unit | Model | product detail', function() {
+  setupModelTest('product-detail', {
     // Specify the other units that are required for this test.
       needs: []
   });

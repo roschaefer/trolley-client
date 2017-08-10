@@ -5,6 +5,6 @@ export default DS.Model.extend({
   sugar: DS.attr('number'),
   distance: DS.attr('number'),
   price: DS.attr('number'),
-  details: DS.hasMany('product/detail'),
-  rfids: DS.hasMany('product/rfid'),
+  details: DS.hasMany('product-detail'),
+  rfids: DS.hasMany('product-rfid'),
 });

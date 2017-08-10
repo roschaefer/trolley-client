@@ -150,18 +150,22 @@ export default [
     //name: 'Frischkäse',
   },
   {
+    tag: 'rfid-33',
     productId: 33,
     //name: 'Frischkäse',
   },
   {
+    tag: 'rfid-34',
     productId: 34,
     //name: 'Toskana',
   },
   {
+    tag: 'rfid-35',
     productId: 35,
     //name: 'Pils',
   },
   {
+    tag: 'rfid-36',
     productId: 36,
     //name: 'Pils',
   }
