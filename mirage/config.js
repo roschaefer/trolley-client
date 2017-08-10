@@ -30,6 +30,6 @@ export default function() {
     return products.find(request.params.id);
   });
   this.get('/product-rfids/:tag', ({productRfids}, request) => {
-    return productRfids.findBy({tag: request.params.tag});
+    return productRfids.find(request.params.tag);
   });
 }

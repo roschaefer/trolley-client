@@ -7,7 +7,9 @@ export default Ember.Route.extend({
     this.get('communication').setEventListener('rfidRead', (eventParams) => {
       //this.transitionTo('products', eventParams.id);
       this.get('store').findRecord('product-rfid', eventParams.id).then((rfid) => {
-        this.get('sessionState').addToCart(rfid.get('product'));
+        rfid.get('product').then((product) => {
+          this.get('sessionState').addToCart(product);
+        });
       });
     });
     this.get('communication').setEventListener('prioritySwitch', (eventParams) => {
