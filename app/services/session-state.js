@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
+const prioritySet =  ['regional', 'organic', 'sugar', 'price'];
 export default Ember.Service.extend({
-  prioritySet: ['regional', 'organic', 'sugar', 'price'],
   cartItems: [],
   shoppingListItems: [],
   priorities: [],
@@ -14,7 +14,7 @@ export default Ember.Service.extend({
   },
 
   updatePriority(priority, state){
-    if (!(this.get('prioritySet').includes(priority))) { return }
+    if (!(prioritySet.includes(priority))) { return }
     let updatePriorities = this.get('priorities');
     if (state) {
       updatePriorities.pushObject(priority);
