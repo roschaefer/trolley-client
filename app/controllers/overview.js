@@ -32,7 +32,11 @@ export default Ember.Controller.extend({
 
   totalOrganic: Ember.computed('sessionState.cartItems', function() {
     return this.get('sessionState.cartItems').reduce((organic, item) => {
-      return item.seals.includes('EUBio') ? 1 : 0;
+      if(typeof item.seals !== 'undefined') {
+        return item.seals.includes('EUBio') ? 1 : 0;
+      } else {
+        return 0;
+      }
     }, 0);
   }),
 
