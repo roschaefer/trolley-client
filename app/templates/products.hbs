@@ -1,8 +1,11 @@
 {{#app-shell
     actionLeft="Einkaufsliste"
+    actionRight=nextPriorityLabel
 }}
 
     <h1 class="c-section-header u-is-highlight">{{model.name}}</h1>
+
+    {{nextPriority}}
 
     {{#if activePriorities.length}}
 
