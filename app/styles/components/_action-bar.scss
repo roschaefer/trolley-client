@@ -4,8 +4,10 @@
 
 .c-action-bar {
     display: flex;
-    height: 2.5rem;
-    padding: .5rem 1rem;
+    height: 3.75rem;
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+    line-height: 3rem;
 
     color: #fff;
     background: #015db3;
@@ -13,8 +15,14 @@
 }
 
 .c-action-bar__action {
+    width: 25%;
+    font-size: 1.25rem;
     font-weight: 600;
-    letter-spacing: .05;
+    letter-spacing: .05em;
+}
+
+.c-action-bar__action--right {
+    text-align: right;
 }
 
 .c-action-bar__info {
