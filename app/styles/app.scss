@@ -11,19 +11,19 @@
 
 /* COMPONENTS */
 @import "components/viewport";
+@import "components/app";
+@import "components/action-bar";
+@import "components/section-header";
 @import "components/overview";
-@import "components/facts-item";
 @import "components/shopping-list";
 @import "components/shopping-summary";
+@import "components/product-facts";
+@import "components/facts-item";
+@import "components/card";
 @import "components/product-slide";
 @import "components/product-seals";
-
 @import "components/product-seal";
 @import "components/product-graphic";
-
-@import "components/section-header";
-@import "components/product-facts";
-@import "components/card";
 
 /* UTILS */
 @import "utils/highlight";

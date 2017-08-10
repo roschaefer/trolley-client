@@ -1,0 +1,18 @@
+/**
+ * APP
+ */
+
+.c-app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.c-app__content {
+    flex: 1;
+    overflow: hidden;
+}
+
+.c-app__action-bar {
+    
+}

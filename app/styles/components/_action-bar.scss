@@ -1,0 +1,23 @@
+/**
+ * ACTION-BAR
+ */
+
+.c-action-bar {
+    display: flex;
+    height: 2.5rem;
+    padding: .5rem 1rem;
+
+    color: #fff;
+    background: #015db3;
+    border-top: 1px solid rgba(0, 0, 0, .5);
+}
+
+.c-action-bar__action {
+    font-weight: 600;
+    letter-spacing: .05;
+}
+
+.c-action-bar__info {
+    flex: 1;
+    text-align: center;
+}
