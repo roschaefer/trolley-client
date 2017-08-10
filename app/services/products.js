@@ -9,7 +9,7 @@ export default Ember.Service.extend({
 
     find(id) {
         return _(data.data).find(function(product) {
-            return product.id === id;
+            return product.id === parseInt(id);
         });
     },
 
