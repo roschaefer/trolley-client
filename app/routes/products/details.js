@@ -7,12 +7,12 @@ export default Ember.Route.extend({
   model(params) {
 
     this.get('communication').setEventListener('rightButtonClick', () => {
-      let nextPriority = this.get('sessionState').nextPriority(params.name);
-      if (nextPriority) {
-        this.transitionTo('products/details', params.id, nextPriority);
-      } else {
-        this.transitionTo('products', params.id);
-      }
+      // let nextPriority = this.get('sessionState').nextPriority(params.name);
+      // if (nextPriority) {
+      //   this.transitionTo('products/details', params.id, nextPriority);
+      // } else {
+      //   this.transitionTo('products', params.id);
+      // }
     });
 
     return {
