@@ -27,6 +27,13 @@ export let data = [
                 "text": "Das Brokkoli überhaupt Zucker enthält, ist schon überraschend. Aber mit 1,7 Gramm pro 100 Gramm Brokkoli kann man wohl selbst in der strengsten Diät leben.",
                 "filename": "brokkoli_zucker.mp4"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "video",
+                "headline": "Konventionell statt bio",
+                "text": "Dieser konventionelle Brokkoli hat eine kürzere Anreise als sein Bio-Kollege aus Friedrichsgabekoog - ist aber eben nicht bio.",
+                "filename": "brokkoli_zucker.mp4"
+            },
             "price": {
                 "priority": "price",
                 "type": "video",
@@ -68,6 +75,13 @@ export let data = [
                 "text": "Da macht auch Bio keinen Unterschied - dieser Brokkoli enthält genauso wie der konventionelle Brokkoli 1,7 Gramm Zucker pro 100 Gramm.",
                 "filename": "bio_brokkoli_zucker.mp4"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "video",
+                "headline": "Hier steckt bio drin",
+                "text": "\"Unsere Heimat\" prangert auf der Vepackung - dabei ist der Bio-Brokkoli mit einer Strecke von 171km ganz schön weit bis nach Lüneburg gereist. Dafür ist er richtig \"Bio\", zertifiziert durch Naturlandschaften und EU-Bio. Der Logo-Panda von WWF ist vor allem süß, bedeutet aber wenig.",
+                "filename": "wwf_siegel.mp4"
+            },
             "price": {
                 "priority": "price",
                 "type": "video",
@@ -105,6 +119,13 @@ export let data = [
                 "text": "Ei ist Ei - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 1,1 Gramm pro 100 Gramm Ei.",
                 "filename": "eier_bodenhaltung_regional.jpg"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Wie ein Ei dem anderen?",
+                "text": "Ja. Nur die Hühner leben eben dicht gedrängt. Gras haben sie nie unter ihren Füßen.",
+                "filename": "eier_bodenhaltung_regional.jpg"
+            },
             "price": {
                 "priority": "price",
                 "type": "slide",
@@ -140,6 +161,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Ein Ei ist ein Ei ist ein Ein...",
                 "text": "Ei ist Ei - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 1,1 Gramm pro 100 Gramm Ei.",
+                "filename": "eier_wanderhuehner_regional.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Wanderst Du noch oder legst Du schon?",
+                "text": "Teurer als ein Bio-Ei? Ja, die Wanderhühner sind eine besondere Form der Tierhaltung.Die Hühner werden in mobilen Ställen gehalten, die alle acht bis zehn Tage woanders aufgestellt werden. Das ist Freiland plus, aufwändig.",
                 "filename": "eier_wanderhuehner_regional.jpg"
             },
             "price": {
@@ -184,6 +212,13 @@ export let data = [
                 "text": "Ei ist Ei - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 1,1 Gramm pro 100 Gramm Ei.",
                 "filename": "Eier_Bauckhof_regional.mp4"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "video",
+                "headline": "Wie aus dem Bilderbuch",
+                "text": "Hühner, die auf Wiesen scharen, das ist selbst für Bio-Hühner nicht typisch. Auf dem Bauckhof gibt es diese Idylle noch. Und selbst die (weißen) Bruderhähne der Hennen bleiben am Leben.",
+                "filename": "Eier_Bauckhof_bio.mp4"
+            },
             "price": {
                 "priority": "price",
                 "type": "video",
@@ -225,6 +260,13 @@ export let data = [
                 "text": "Zero Zucker - Jackpot!",
                 "filename": "lachs_gug_regional.jpg"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "video",
+                "headline": "Nachhaltig, aber nicht bio",
+                "text": "Nachhaltige Fischerei ist den Produzenten des gut & günstig Lachsfilets wichtig. Dies bestätigt auch das MSC Siegel. Ein WWF-Siegel ist auch noch drauf.. Das sieht vor allem gut aus. Denn Bio ist der Lachs sicher nicht.",
+                "filename": "wwf_siegel.mp4"
+            },
             "price": {
                 "priority": "price",
                 "type": "slide",
@@ -260,9 +302,16 @@ export let data = [
             },
             "sugar": {
                 "priority": "sugar",
-                "type": "video",
+                "type": "slide",
                 "headline": "Zucker? Welcher Zucker?",
                 "text": "Zero Zucker - Jackpot!",
+                "filename": "lachs_followfish_regional.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Bio-Lachsfilet",
+                "text": "Biologische Landwirtschaft, schonende Aquakultur, nachhaltiger Wildfang - hier steht nicht nur bio drauf, hier ist auch bio drin. ",
                 "filename": "lachs_followfish_regional.jpg"
             },
             "price": {
@@ -302,6 +351,13 @@ export let data = [
                 "text": "Fast zuckerfrei, aber an den 0,1 Gramm Zucker pro 100 Gramm Gouda kommt man halt nicht ganz vorbei.",
                 "filename": "gouda_gug_zucker.mp4"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Zu günstig für bio",
+                "text": "Bei einem Preis von 1,99€ für 400 Gramm Käse ist bio bei diesem Industrieprodukt nicht drin.",
+                "filename": "gouda_gug_regional.jpg"
+            },
             "price": {
                 "priority": "price",
                 "type": "video",
@@ -338,6 +394,13 @@ export let data = [
                 "headline": "Fast, aber eben nur fast...",
                 "text": "Fast zuckerfrei, aber an den 0,1 Gramm Zucker pro 100 Gramm Gouda kommt man halt nicht ganz vorbei.",
                 "filename": "kaese_ruecker_zucker.mp4"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "<em>\"Macht Bio meinen Käse wirklich besser?\"</em>",
+                "text": "Klaus Rücker, Chef der Privatmolkerei Rücker glaubt nicht daran, dass Bio die Ernährung besser macht. Deshalb verarbeitet er konventionelle Milch.",
+                "filename": "kaese_ruecker_bio.jpg"
             }
         }
     },
@@ -367,6 +430,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Wenig Zucker, aber...",
                 "text": "3,2 Gramm Zucker pro 100 Gramm Sahne - hinzu kommen aber auch 30 Gramm Fett, die ordentlich ins Gewicht fallen. Di",
+                "filename": "sahne_gug_regional.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Gut & günstig muss reichen",
+                "text": "Der Name ist Programm: Die Schlagsahne kommt ",
                 "filename": "sahne_gug_regional.jpg"
             },
             "price": {
@@ -410,6 +480,13 @@ export let data = [
                 "text": "Natürliches natürlich belassen ist das Motto von Andechser. Mit 3,1 Gramm Zucker pro 100 Gramm Sahne immerhin 0,1 Gramm weniger als die Konkurrenz. ",
                 "filename": "sahne_andechser_bio.jpg"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Natürliches natürlich belassen",
+                "text": "Die wertvolle Bio-Milch der ANDECHSER NATUR Milch- und Käsespezialitäten stammt von zertifizierten, familiengeführten Bio-Bauernhöfen. Die Landwirte sind allesamt den Anbauverbänden Bioland, Demeter, Biokreis oder Naturland angeschlossen. Unabhängige Kontrollstellen prüfen regelmäßig die Einhaltung der strengen Richtlinien.",
+                "filename": "sahne_andechser_bio.jpg"
+            },
             "price": {
                 "priority": "price",
                 "type": "slide",
@@ -445,6 +522,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Wenig Zucker, aber...",
                 "text": "3,2 Gramm Zucker pro 100 Gramm Sahne - hinzu kommen aber auch 30 Gramm Fett, die ordentlich ins Gewicht fallen.",
+                "filename": "sahne_gug_regional.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Gut, günstig - aber nicht bio!",
+                "text": "Anders als die Andechser Bio-Schlagsahne, ist die konventionelle gut & günstig Schlagsahne WEDER mit dem Bioland, NOCH mit dem EU-Bio-Siegel ausgezeichnet.",
                 "filename": "sahne_gug_regional.jpg"
             },
             "price": {
@@ -484,6 +568,13 @@ export let data = [
                 "text": "100 Gramm Erdbeeren enthalten 4,9 Gramm Zucker - nur halb so viel wie beispielsweise Kirschen.",
                 "filename": "erdbeeren_spanien_regional.jpg"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Bio? Leider nein, leider gar nicht!",
+                "text": "Günstig sind die in Deutschland angebauten Erdbeeren. Beim Thema Bio muss man dafür allerdings Abstriche machen.",
+                "filename": "erdbeeren_spanien_regional.jpg"
+            },
             "price": {
                 "priority": "price",
                 "type": "slide",
@@ -519,6 +610,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Der gesunde Snack",
                 "text": "100 Gramm Erdbeeren enthalten 4,9 Gramm Zucker - nur halb so viel wie beispielsweise Kirschen.",
+                "filename": "erdbeeren_strampe_regional.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Bio? Leider nein, leider gar nicht!",
+                "text": "Zwar quasi von nebenan aber dennoch kein bio.Aber Bestimmt mit Pferdeäpfeln!",
                 "filename": "erdbeeren_strampe_regional.jpg"
             },
             "price": {
@@ -559,6 +657,13 @@ export let data = [
                 "headline": "Nur halb so viel",
                 "text": "0,8 Gramm Zucker pro 100 Gramm Fischstäbchen - das ist rund 50 % weniger als bei der Konkurrenz Frosta.",
                 "filename": "fischstaebchen_frosta_regional.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Bio? Fehlanzeige!",
+                "text": "Sowohl bei den Fischstäbchen von Iglo, als auch bei denen von Frosta handelt es sich um konventionelle Industriefischstäbchen.",
+                "filename": "fischstaebchen_frosta_regional.jpg"
             }
         }
     },
@@ -591,6 +696,13 @@ export let data = [
                 "headline": "Süßer Fisch",
                 "text": "2 Gramm Zucker pro 100 Gramm Fischstäbchen - das ist rund 50 % mehr als bei der Konkurrenz Iglo. ",
                 "filename": "fischstaebchen_frosta_regional.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Bio? Fehlanzeige!",
+                "text": "Sowohl bei den Fischstäbchen von Iglo, als auch bei denen von Frosta handelt es sich um konventionelle Industriefischstäbchen.",
+                "filename": "fischstaebchen_frosta_regional.jpg"
             }
         }
     },
@@ -619,6 +731,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Zero Zucker!",
                 "text": "Nix, null, nada, niente, nothing - im Kaffee steckt kein bisschen Zucker - zumindest solange man ihn schwarz trinkt wie Beckings Chefröster Sönke Plautz.",
+                "filename": "kaffee_becking_bio.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "<em>Vom Siegel allein haben die Kleinbauern auch nichts.</em>",
+                "text": "Becking verzichte bewusst auf Bio, sagt Beckings Chefröster Sönke Plautz. Er sieht nicht ein, warum er für teure Kontrollen Geld ausgeben soll.",
                 "filename": "kaffee_becking_bio.jpg"
             },
             "price": {
@@ -655,6 +774,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Zero Zucker!",
                 "text": "Nix, null, nada, niente, nothing - im Kaffee steckt kein bisschen Zucker - zumindest solange man ihn schwarz trinkt.",
+                "filename": "kaffee_gug_regional.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Nix-Bio-Bohne",
+                "text": "Dieser Kaffee wird hergestellt, wie industrieller Kaffee heutzutage hergestellt wird: auf großen Plantagen, oft unter fragwürdigen Arbeitsbedingungen. Sicher: Nicht Bio.",
                 "filename": "kaffee_gug_regional.jpg"
             },
             "price": {
@@ -697,6 +823,13 @@ export let data = [
                 "text": "Nix, null, nada, niente, nothing - im Kaffee steckt kein bisschen Zucker - zumindest solange man ihn schwarz trinkt.",
                 "filename": "kaffee_tempelmann_symbol.jpg"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Biobohne",
+                "text": "Dieser Kaffee heißt nicht nur Bio, er ist es auch! Und dazu auch noch fair gehandelt - was will man mehr?",
+                "filename": "kaffee_tempelmann_symbol.jpg"
+            },
             "price": {
                 "priority": "price",
                 "type": "slide",
@@ -731,6 +864,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Ein Spinat wie der andere...",
                 "text": "1,7 Gramm Zucker pro 100 Gramm Spinat, da Unterscheiden sich die Produkte von Iglo und Gut & Günstig nicht.",
+                "filename": "tkspinat_edeka_regional.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Kraftfutter, konventionell",
+                "text": "Dieser Spinat wächst auf normalen Feldern, wird konventionell gedüngt, gespritzt und geerntet. Bio ist er nicht.",
                 "filename": "tkspinat_edeka_regional.jpg"
             },
             "price": {
@@ -769,6 +909,13 @@ export let data = [
                 "headline": "Ein Spinat wie der andere...",
                 "text": "1,7 Gramm Zucker pro 100 Gramm Spinat, da Unterscheiden sich die Produkte von Iglo und Gut & Günstig nicht.",
                 "filename": "spinat_zucker.mp4"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Kraftfutter, konventionell",
+                "text": "Dieser Spinat wächst auf normalen Feldern, wird konventionell gedüngt, gespritzt und geerntet. Bio ist er nicht.",
+                "filename": "tkspinat_edeka_regional.jpg"
             },
             "price": {
                 "priority": "price",
@@ -809,6 +956,13 @@ export let data = [
                 "headline": "Eiweiß en masse",
                 "text": "Nur 0,3 Gramm Zucker, sogar 26 Gramm Eiweiß pro 100 Gramm Schinken - ein richtiges Energiepaket.",
                 "filename": "schinken_basedahl_bio.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Das ist Bio.",
+                "text": "Die Idylle ist nur drangehängt. Aus dieser Fleischfabrik in Blumberg kommt der Edeka-Bio-Schinken.  Ein Industrieprodukt nach Bio-Standard.",
+                "filename": "schinken_edeka-bio_bio.jpg"
             }
         }
     },
@@ -838,6 +992,13 @@ export let data = [
                 "headline": "Eiweiß en masse ",
                 "text": "Nur 0,3 Gramm Zucker, sogar 26 Gramm Eiweiß pro 100 Gramm Schinken - ein richtiges Energiepaket.",
                 "filename": "schinken_gug_zucker.mp4"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Nix Bio – aus Überzeugung",
+                "text": "Bei Basedahl betrachten sie Schinken als Handwerk mit Tradition. Für ihre Schinken verwenden sie bestes Fleisch, Salz und gute Späne zum Räuchern. Nicht mehr, nicht weniger, sagt Henning Basedahl, Chef der Schinkenmanufaktur – was solle da ein Bio-Siegel besser machen?",
+                "filename": "schinken_basedahl_bio.jpg"
             },
             "price": {
                 "priority": "price",
@@ -874,6 +1035,13 @@ export let data = [
                 "headline": "Eiweiß en masse ",
                 "text": "Nur 0,3 Gramm Zucker, sogar 26 Gramm Eiweiß pro 100 Gramm Schinken - ein richtiges Energiepaket.",
                 "filename": "schinken_gug_zucker.mp4"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "video",
+                "headline": "Bio? Och nö!",
+                "text": "Gut & günstig - allerdings weder regional, noch bio.",
+                "filename": "schinken_gug_regional.mp4"
             }
         }
     },
@@ -905,6 +1073,13 @@ export let data = [
                 "type": "slide",
                 "headline": "Kaum Zucker",
                 "text": "Milch ist Milch - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 4,8 Gramm pro 100 Mililiter Milch.",
+                "filename": "milch_gug_preis.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Bitte keine Gentechnik",
+                "text": "Bio ist die frische Vollmilch von gut & günstig zwar nicht. Aber dafür immerhin ohne Gentechnik!",
                 "filename": "milch_gug_preis.jpg"
             },
             "price": {
@@ -947,6 +1122,13 @@ export let data = [
                 "text": "4,9 Gramm Zucker pro 100 Mililiter enthält die frische Vollmilch von Alnatura. Damit hat sie 0,1 Gramm mehr als die Konkurrenz und landet knapp auf dem letzen Platz.",
                 "filename": "milch_alnatura_regional.jpg"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Doppellt besiegelt",
+                "text": "Hier steht nicht nur bio drauf, hier steckt auch bio drin - zertifiziert durch die Siegel Bioland und EU-Bio.",
+                "filename": "milch_alnatura_regional.jpg"
+            },
             "price": {
                 "priority": "price",
                 "type": "slide",
@@ -986,6 +1168,13 @@ export let data = [
                 "headline": "Kaum Zucker",
                 "text": "Milch ist Milch - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 4,8 Gramm pro 100 Mililiter Milch.",
                 "filename": "kaffee_zucker.mp4"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Bio-Bio",
+                "text": "Hier steht nicht nur bio drauf, hier steckt auch bio drin - zertifiziert durch die Siegel Bioland und EU-Bio.",
+                "filename": "milch_gug_preis.jpg"
             },
             "price": {
                 "priority": "price",
@@ -1027,6 +1216,13 @@ export let data = [
                 "text": "Milch ist Milch - zumindest was den Zucker angeht. Ob regional, bio oder konventionell: Der Zuckergehalt liegt bei rund 4,8 Gramm pro 100 Mililiter Milch.",
                 "filename": "kaffee_zucker.mp4"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Bio hoch zwei",
+                "text": "Hier steht nicht nur bio drauf, hier steckt auch bio drin - zertifiziert durch die Siegel Bioland und EU-Bio.",
+                "filename": "milch_alnatura_regional.jpg"
+            },
             "price": {
                 "priority": "price",
                 "type": "slide",
@@ -1062,6 +1258,13 @@ export let data = [
                 "headline": "Geteilte Freude...",
                 "text": "Was hat Frischkäse aus Dänemark und Frischkäse aus Bayern gemeinsam? Nicht viel, außer einen Zuckergehalt von 3 Gramm pro 100 Gramm Frischkäse.",
                 "filename": "kaffee_zucker.mp4"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Heute kein bio",
+                "text": "Wenn man sich für gut & günstig entscheidet, muss man eben Abstriche beim Thema bio machen.",
+                "filename": "milch_gug_preis.jpg"
             },
             "price": {
                 "priority": "price",
@@ -1103,6 +1306,13 @@ export let data = [
                 "text": "Was hat Frischkäse aus Dänemark und Frischkäse aus Bayern gemeinsam? Nicht viel, außer einen Zuckergehalt von 3 Gramm pro 100 Gramm Frischkäse.",
                 "filename": "gouda_gug_zucker.mp4"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "video",
+                "headline": "Zweifach besiegelt",
+                "text": "Hier steht nicht nur bio drauf, hier steckt auch bio drin - zertifiziert durch das Siegel von Bioland. Und zur Sicherheit noch ein WWF Siegel. Das sieht vor allem gut aus.",
+                "filename": "wwf_siegel.mp4"
+            },
             "price": {
                 "priority": "price",
                 "type": "slide",
@@ -1142,6 +1352,13 @@ export let data = [
                 "text": "Mit 4,1 Gramm Zucker pro 100 Gramm Frischkäse hat das Produkt von Alnatura einen höheren Zuckergehalt, als die Konkurrenz von Edeka. Vielleicht naschen die Kühen in den Alpen einfach mehr?",
                 "filename": "kaese_ruecker_zucker.mp4"
             },
+            "organic": {
+                "priority": "organic",
+                "type": "video",
+                "headline": "Unabhängig geprüft",
+                "text": "Alnatura trägt das EU-Biosiegel, wird also regelmäßig von unabhängigen Öko-Kontrolleuren nach der EU-Verordnung für Ökologischen Landbau geprüft. Da darft zum Beispiel keine Gentechnik drin sein. ",
+                "filename": "frischkaese_alnatura_regional.mp4"
+            },
             "price": {
                 "priority": "price",
                 "type": "slide",
@@ -1177,6 +1394,13 @@ export let data = [
                 "headline": "Multikulti",
                 "text": "Aus aller Herren Länder stammen die Zutaten der FRoSTA Gemüsepfanne Toskana - Zucker haben sie dabei kaum mitgebracht. Bloß 3 Gram Zucker enthalten 100 Gramm Gemüsepfanne.",
                 "filename": "pfanne_frosta_bio.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Viel Werbung, gar kein Bio",
+                "text": "Vegetarisch ist die Pfanne, das macht Frosta sogar mit einem eigenen Hinweis kenntlich. Außerdem: frei von Geschmacksverstärkern, Farbstoffen und Aromen. All das reicht aber noch nicht, um sich auch \"bio\" nennn zu dürfen.   ",
+                "filename": "pfanne_frosta_bio.jpg"
             }
         }
     },
@@ -1206,6 +1430,13 @@ export let data = [
                 "headline": "Zuck wohl!",
                 "text": "100ml Bier enthalten 0,1 Gramm Zucker. Man müsste also 273 Flaschen Bier trinken, um genauso viel Zucker zu sich zu nehmen, wie in einem Liter Cola steckt. Na dann - Prost!",
                 "filename": "bier_becks_zucker2.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Einfach nur: Grün",
+                "text": "Becks setzt ganz auf die Strahlkraft des grünen Glases.Der Inhalt aber ist nicht ganz so grün. Die ganze Marken-Familie der Becks-Biere bietet bislang kein einziges Bio-Bier.",
+                "filename": "bier_becks_bio.jpg"
             },
             "price": {
                 "priority": "price",
@@ -1242,6 +1473,13 @@ export let data = [
                 "headline": "Prost!",
                 "text": "100ml Bier enthalten 0,1 Gramm Zucker. Man müsste also 273 Flaschen Bier trinken, um genauso viel Zucker zu sich zu nehmen, wie in einem Liter Cola steckt. Na dann - Prost!",
                 "filename": "bier_becks_zucker2.jpg"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Kein Bio, aber oho!",
+                "text": "Nicht gefiltert, nicht pasteurisiert, edler Aroma-Hopfen \"Hallertauer Tradition\" aus Deutschland - und alles nach Deutschem Reinheitsgebot. Da brauchts offenbar auch kein Bio-Siegel mehr. ",
+                "filename": "bier_dachs_bio.jpg"
             },
             "price": {
                 "priority": "price",
@@ -1281,6 +1519,13 @@ export let data = [
                 "headline": "Passt auf",
                 "text": "Zucker ist Marco Maas in seiner Ernährung besonders wichtig. Deshalb achtet er beim Einkaufen besonders darauf.",
                 "filename": "prod37-zucker.mp4"
+            },
+            "organic": {
+                "priority": "organic",
+                "type": "slide",
+                "headline": "Quasi Bio",
+                "text": "Die Google DNI ist der journalistische Biostandard. Von daher entspricht Marco dem Biostandard.",
+                "filename": "prod37-siegel.jpg"
             },
             "price": {
                 "priority": "price",
