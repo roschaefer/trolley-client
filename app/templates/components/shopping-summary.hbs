@@ -1,7 +1,7 @@
 <div class="c-shopping-summary">
     {{#if (includes activePriorities "regional")}}
         <div class="c-shopping-summary__item">
-            {{facts-item value=totalDistance unit="km" info="Produktionsweg"}}
+            {{facts-item value=(decimals totalDistance 0) unit="km" info="Produktionsweg"}}
         </div>
     {{/if}}
     {{#if (includes activePriorities "organic")}}
@@ -11,12 +11,12 @@
     {{/if}}
     {{#if (includes activePriorities "sugar")}}
         <div class="c-shopping-summary__item">
-            {{facts-item value=totalSugar unit="Gramm" info="Zucker"}}
+            {{facts-item value=(decimals totalSugar 1) unit="Gramm" info="Zucker"}}
         </div>
     {{/if}}
     {{#if (includes activePriorities "price")}}
         <div class="c-shopping-summary__item">
-            {{facts-item value=totalPrice unit="€" info="Preis"}}
+            {{facts-item value=(decimals totalPrice 2) unit="€" info="Preis"}}
         </div>
     {{/if}}
 </div>
