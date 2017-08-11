@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import _ from 'lodash';
 
 export default Ember.Controller.extend({
 
@@ -9,14 +10,14 @@ export default Ember.Controller.extend({
   }),
 
   nextPriorityLabel: Ember.computed('sessionState.priorities', function() {
-    let product = this.get('model');
+    let details = _.shuffle(this.get('model').details().keys());
     let labels = {
         regional: 'Regional?',
         organic: 'Bio?',
         sugar: 'Zucker?',
         price: 'Preis?',
     };
-    let next = this.get('sessionState').nextPriority();
+    let next = details[0];
 
     if(next && typeof product.details[next] !== 'undefined') {
         return labels[next];
